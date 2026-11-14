@@ -929,15 +929,6 @@ window.MI_ALBEN = [
  },
  {
   "band": "Zillertaler Haderlumpen",
-  "titel": "Jodeln, singen, fröhlich sein",
-  "datum": "2008-02-08",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/274965614.jpg",
-  "apple": "https://music.apple.com/at/album/jodeln-singen-fr%C3%B6hlich-sein/274965614",
-  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%20Jodeln%2C%20singen%2C%20fr%C3%B6hlich%20sein"
- },
- {
-  "band": "Zillertaler Haderlumpen",
   "titel": "1,2 oder 3000 Jahre",
   "datum": "2008-01-01",
   "label": "X-Hera Music",
