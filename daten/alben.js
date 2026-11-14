@@ -1164,15 +1164,6 @@ window.MI_SINGLES = [
   "spotify": "https://open.spotify.com/search/Juhe%20aus%20Tirol%20Mir%20gian%20ins%20Gasthaus"
  },
  {
-  "band": "Kasermandl Duo",
-  "titel": "Nur a Held geht aufs Feld",
-  "datum": "2019-04-16",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1460670777.jpg",
-  "apple": "https://music.apple.com/at/album/nur-a-held-geht-aufs-feld-single/1460670777",
-  "spotify": "https://open.spotify.com/search/Kasermandl%20Duo%20Nur%20a%20Held%20geht%20aufs%20Feld"
- },
- {
   "band": "Z-Pur",
   "titel": "A super bärige Zeit",
   "datum": "2018-11-23",
