@@ -64,6 +64,15 @@ window.MI_ALBEN = [
   "spotify": "https://open.spotify.com/search/H%C3%B6llawind%20aus%20dem%20Zillertal%20A%20frischer%20Wind"
  },
  {
+  "band": "Freddy Pfister Band",
+  "titel": "Musik aus dem Zillertal",
+  "datum": "2025-11-14",
+  "label": "Fiesta Records (Andreas Rosmiarek), LC-Nr. 02000",
+  "bild": "bilder/alben/1851199257.jpg",
+  "apple": "https://music.apple.com/at/album/musik-aus-dem-zillertal/1851199257",
+  "spotify": "https://open.spotify.com/search/Freddy%20Pfister%20Band%20Musik%20aus%20dem%20Zillertal"
+ },
+ {
   "band": "Die Grubertaler",
   "titel": "Echt Schlager - Die große Fete, Vol. IV",
   "datum": "2025-09-19",
@@ -1227,6 +1236,15 @@ window.MI_SINGLES = [
   "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Unschuldsengel"
  },
  {
+  "band": "Freddy Pfister Band",
+  "titel": "Bald bin i da",
+  "datum": "2025-10-17",
+  "label": "Fiesta Records (Andreas Rosmiarek), LC-Nr. 02000",
+  "bild": "bilder/alben/1843725728.jpg",
+  "apple": "https://music.apple.com/at/album/bald-bin-i-da-single/1843725728",
+  "spotify": "https://open.spotify.com/search/Freddy%20Pfister%20Band%20Bald%20bin%20i%20da"
+ },
+ {
   "band": "Ligist 3",
   "titel": "Die Liab zur Steiermark",
   "datum": "2025-10-07",
@@ -1288,6 +1306,15 @@ window.MI_SINGLES = [
   "bild": "bilder/alben/1825176931.jpg",
   "apple": "https://music.apple.com/at/album/wenn-du-meinst-es-geht-nix-mehr-single/1825176931",
   "spotify": "https://open.spotify.com/search/Volksbeat%20Wenn%20du%20meinst%2C%20es%20geht%20nix%20mehr"
+ },
+ {
+  "band": "Freddy Pfister Band",
+  "titel": "Tirol = Cool!",
+  "datum": "2025-07-04",
+  "label": "Fiesta Records (Andreas Rosmiarek), LC-Nr. 02000",
+  "bild": "bilder/alben/1821716872.jpg",
+  "apple": "https://music.apple.com/at/album/tirol-cool-single/1821716872",
+  "spotify": "https://open.spotify.com/search/Freddy%20Pfister%20Band%20Tirol%20%3D%20Cool%21"
  },
  {
   "band": "Ligist 3",
