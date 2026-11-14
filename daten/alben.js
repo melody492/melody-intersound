@@ -226,6 +226,15 @@ window.MI_ALBEN = [
   "spotify": "https://open.spotify.com/search/Sonnwend%20Die%20Liab%20zum%20Hoamatland"
  },
  {
+  "band": "Trio Melody Tirol",
+  "titel": "Ich zeig dir wo die Berge sind",
+  "datum": "2023-04-18",
+  "label": "MCP",
+  "bild": "bilder/alben/1683266109.jpg",
+  "apple": "https://music.apple.com/at/album/ich-zeig-dir-wo-die-berge-sind/1683266109",
+  "spotify": "https://open.spotify.com/search/Trio%20Melody%20Ich%20zeig%20dir%20wo%20die%20Berge%20sind"
+ },
+ {
   "band": "Die Grubertaler",
   "titel": "Hoamatschnee - Für die Zeit der Stille",
   "datum": "2022-11-25",
@@ -485,6 +494,627 @@ window.MI_ALBEN = [
   "bild": "bilder/alben/1347196059.jpg",
   "apple": "https://music.apple.com/at/album/musiziert-weard-allweil-gearn/1347196059",
   "spotify": "https://open.spotify.com/search/Zillachtol%20G%27song%20Musiziert%20weard%20allweil%20gearn"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Die größten Partyhits, Vol. IX",
+  "datum": "2017-12-29",
+  "label": "MCP Sound & Media GmbH",
+  "bild": "bilder/alben/1317267187.jpg",
+  "apple": "https://music.apple.com/at/album/die-gr%C3%B6%C3%9Ften-partyhits-vol-ix/1317267187",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Die%20gr%C3%B6%C3%9Ften%20Partyhits%2C%20Vol.%20IX"
+ },
+ {
+  "band": "Zillertaler Mander",
+  "titel": "Die Mander san do!",
+  "datum": "2017-07-21",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/1258187523.jpg",
+  "apple": "https://music.apple.com/at/album/die-mander-san-do/1258187523",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Mander%20Die%20Mander%20san%20do%21"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Jubiläumsalbum - 15 Jahre",
+  "datum": "2017-06-02",
+  "label": "MCP Sound & Media GmbH",
+  "bild": "bilder/alben/1242838100.jpg",
+  "apple": "https://music.apple.com/at/album/jubil%C3%A4umsalbum-15-jahre/1242838100",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Jubil%C3%A4umsalbum%20-%2015%20Jahre"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Die größten Partyhits - VOL. VIII",
+  "datum": "2016-12-30",
+  "label": "MCP Sound & Media GmbH",
+  "bild": "bilder/alben/1187853728.jpg",
+  "apple": "https://music.apple.com/at/album/die-gr%C3%B6%C3%9Ften-partyhits-vol-viii/1187853728",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Die%20gr%C3%B6%C3%9Ften%20Partyhits%20-%20VOL.%20VIII"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Die schönsten Weihnachtslieder",
+  "datum": "2016-11-18",
+  "label": "MCP Sound & Media GmbH",
+  "bild": "bilder/alben/1295562552.jpg",
+  "apple": "https://music.apple.com/at/album/die-sch%C3%B6nsten-weihnachtslieder/1295562552",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Die%20sch%C3%B6nsten%20Weihnachtslieder"
+ },
+ {
+  "band": "Z3 – Die drei Zillertaler",
+  "titel": "A Stückal Tirol",
+  "datum": "2016-08-16",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/1143065087.jpg",
+  "apple": "https://music.apple.com/at/album/a-st%C3%BCckal-tirol/1143065087",
+  "spotify": "https://open.spotify.com/search/Z3%20-%20Die%20Drei%20Zillertaler%20A%20St%C3%BCckal%20Tirol"
+ },
+ {
+  "band": "Zillertaler Mander",
+  "titel": "Live",
+  "datum": "2016-07-22",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/1136269358.jpg",
+  "apple": "https://music.apple.com/at/album/live/1136269358",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Mander%20Live"
+ },
+ {
+  "band": "Zillertaler Haderlumpen",
+  "titel": "Lumpenpartyhits",
+  "datum": "2016-04-19",
+  "label": "X-Hera Music",
+  "bild": "bilder/alben/1105496778.jpg",
+  "apple": "https://music.apple.com/at/album/lumpenpartyhits/1105496778",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%20Lumpenpartyhits"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Die größten Partyhits, Vol. VII",
+  "datum": "2016-01-02",
+  "label": "MCP Sound & Media GmbH",
+  "bild": "bilder/alben/1070140327.jpg",
+  "apple": "https://music.apple.com/at/album/die-gr%C3%B6%C3%9Ften-partyhits-vol-vii/1070140327",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Die%20gr%C3%B6%C3%9Ften%20Partyhits%2C%20Vol.%20VII"
+ },
+ {
+  "band": "Die Jungen Zellberger",
+  "titel": "20 Jahre",
+  "datum": "2015-08-21",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/1032648520.jpg",
+  "apple": "https://music.apple.com/at/album/20-jahre/1032648520",
+  "spotify": "https://open.spotify.com/search/Die%20jungen%20Zellberger%2020%20Jahre"
+ },
+ {
+  "band": "Z3 – Die drei Zillertaler",
+  "titel": "Auffi mit'n Kittl",
+  "datum": "2015-08-21",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/1032666197.jpg",
+  "apple": "https://music.apple.com/at/album/auffi-mitn-kittl/1032666197",
+  "spotify": "https://open.spotify.com/search/Z3%20-%20Die%20Drei%20Zillertaler%20Auffi%20mit%27n%20Kittl"
+ },
+ {
+  "band": "Zillertaler Mander",
+  "titel": "Erdig & stark",
+  "datum": "2015-07-17",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/1019202649.jpg",
+  "apple": "https://music.apple.com/at/album/erdig-stark/1019202649",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Mander%20Erdig%20%26%20stark"
+ },
+ {
+  "band": "Zillertaler Haderlumpen",
+  "titel": "Alles ist gut",
+  "datum": "2015-01-22",
+  "label": "X-Hera Music",
+  "bild": "bilder/alben/960603084.jpg",
+  "apple": "https://music.apple.com/at/album/alles-ist-gut/960603084",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%20Alles%20ist%20gut"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Die größten Partyhits, Vol. 6",
+  "datum": "2015-01-02",
+  "label": "MCP Sound & Media GmbH",
+  "bild": "bilder/alben/951789465.jpg",
+  "apple": "https://music.apple.com/at/album/die-gr%C3%B6%C3%9Ften-partyhits-vol-6/951789465",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Die%20gr%C3%B6%C3%9Ften%20Partyhits%2C%20Vol.%206"
+ },
+ {
+  "band": "Zillertaler Haderlumpen",
+  "titel": "Gewaltig 25 Jahre",
+  "datum": "2014-12-09",
+  "label": "X-Hera Music",
+  "bild": "bilder/alben/949845332.jpg",
+  "apple": "https://music.apple.com/at/album/gewaltig-25-jahre/949845332",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%20Gewaltig%2025%20Jahre"
+ },
+ {
+  "band": "Zillertaler Mander",
+  "titel": "Es lebe hoch der Bauernstand",
+  "datum": "2014-07-17",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/900668540.jpg",
+  "apple": "https://music.apple.com/at/album/es-lebe-hoch-der-bauernstand/900668540",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Mander%20Es%20lebe%20hoch%20der%20Bauernstand"
+ },
+ {
+  "band": "Trio Melody Tirol",
+  "titel": "Trio Melody - Ein musikalischer Blumenstrauß",
+  "datum": "2014-05-23",
+  "label": "Trio Melody",
+  "bild": "bilder/alben/881914200.jpg",
+  "apple": "https://music.apple.com/at/album/trio-melody-ein-musikalischer-blumenstrau%C3%9F/881914200",
+  "spotify": "https://open.spotify.com/search/Trio%20Melody%20Trio%20Melody%20-%20Ein%20musikalischer%20Blumenstrau%C3%9F"
+ },
+ {
+  "band": "Zillertaler Haderlumpen",
+  "titel": "Alle Miteinander",
+  "datum": "2014-04-04",
+  "label": "X-Hera Music",
+  "bild": "bilder/alben/843230446.jpg",
+  "apple": "https://music.apple.com/at/album/alle-miteinander/843230446",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%20Alle%20Miteinander"
+ },
+ {
+  "band": "Z3 – Die drei Zillertaler",
+  "titel": "Hauptsach' g'sund",
+  "datum": "2014-04-02",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/857646961.jpg",
+  "apple": "https://music.apple.com/at/album/hauptsach-gsund/857646961",
+  "spotify": "https://open.spotify.com/search/Z3%20Die%20Drei%20Zillertaler%20Hauptsach%27%20g%27sund"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Die größten Partyhits, Vol. 5",
+  "datum": "2013-12-27",
+  "label": "MCP",
+  "bild": "bilder/alben/785539635.jpg",
+  "apple": "https://music.apple.com/at/album/die-gr%C3%B6%C3%9Ften-partyhits-vol-5/785539635",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Die%20gr%C3%B6%C3%9Ften%20Partyhits%2C%20Vol.%205"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Im Tagebuch vom Muatarl",
+  "datum": "2013-08-16",
+  "label": "MCP",
+  "bild": "bilder/alben/691024672.jpg",
+  "apple": "https://music.apple.com/at/album/im-tagebuch-vom-muatarl/691024672",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Im%20Tagebuch%20vom%20Muatarl"
+ },
+ {
+  "band": "Zillertaler Mander",
+  "titel": "A Melchmaschin' mit Volksmusik",
+  "datum": "2013-07-18",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/677807422.jpg",
+  "apple": "https://music.apple.com/at/album/a-melchmaschin-mit-volksmusik/677807422",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Mander%20A%20Melchmaschin%27%20mit%20Volksmusik"
+ },
+ {
+  "band": "Zillertaler Haderlumpen",
+  "titel": "Zillertaler Haderlumpen - Unsere schönsten Balladen",
+  "datum": "2013-04-30",
+  "label": "X-Hera Music",
+  "bild": "bilder/alben/642819135.jpg",
+  "apple": "https://music.apple.com/at/album/zillertaler-haderlumpen-unsere-sch%C3%B6nsten-balladen/642819135",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%20Zillertaler%20Haderlumpen%20-%20Unsere%20sch%C3%B6nsten%20Balladen"
+ },
+ {
+  "band": "Z3 – Die drei Zillertaler",
+  "titel": "Zwoa glatt, zwoa verkehrt",
+  "datum": "2013-01-09",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/595608259.jpg",
+  "apple": "https://music.apple.com/at/album/zwoa-glatt-zwoa-verkehrt/595608259",
+  "spotify": "https://open.spotify.com/search/Z3%20Die%20Drei%20Zillertaler%20%26%20Zillachtol%20G%27song%20Zwoa%20glatt%2C%20zwoa%20verkehrt"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Die größten Partyhits, Vol. 4",
+  "datum": "2012-12-21",
+  "label": "MCP",
+  "bild": "bilder/alben/595711414.jpg",
+  "apple": "https://music.apple.com/at/album/die-gr%C3%B6%C3%9Ften-partyhits-vol-4/595711414",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Die%20gr%C3%B6%C3%9Ften%20Partyhits%2C%20Vol.%204"
+ },
+ {
+  "band": "Zillertaler Mander",
+  "titel": "Ja mir san wilde Hund, mir san Tiroler",
+  "datum": "2012-07-17",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/547567496.jpg",
+  "apple": "https://music.apple.com/at/album/ja-mir-san-wilde-hund-mir-san-tiroler/547567496",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Mander%20Ja%20mir%20san%20wilde%20Hund%2C%20mir%20san%20Tiroler"
+ },
+ {
+  "band": "Die Jungen Zellberger",
+  "titel": "Am Gipfel",
+  "datum": "2012-07-13",
+  "label": "VM Records",
+  "bild": "bilder/alben/546497533.jpg",
+  "apple": "https://music.apple.com/at/album/am-gipfel/546497533",
+  "spotify": "https://open.spotify.com/search/Die%20jungen%20Zellberger%20Am%20Gipfel"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Was kann denn schöner sein",
+  "datum": "2012-06-08",
+  "label": "MCP",
+  "bild": "bilder/alben/537955862.jpg",
+  "apple": "https://music.apple.com/at/album/was-kann-denn-sch%C3%B6ner-sein/537955862",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Was%20kann%20denn%20sch%C3%B6ner%20sein"
+ },
+ {
+  "band": "Z3 – Die drei Zillertaler",
+  "titel": "Buam vom Land",
+  "datum": "2012-05-24",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/533111917.jpg",
+  "apple": "https://music.apple.com/at/album/buam-vom-land/533111917",
+  "spotify": "https://open.spotify.com/search/Z3%20-%20Die%203%20Zillertaler%20Buam%20vom%20Land"
+ },
+ {
+  "band": "Zillertaler Haderlumpen",
+  "titel": "Zillertaler Haderlumpen Gewaltig",
+  "datum": "2012-04-19",
+  "label": "X-Hera Music",
+  "bild": "bilder/alben/520803999.jpg",
+  "apple": "https://music.apple.com/at/album/zillertaler-haderlumpen-gewaltig/520803999",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%20Zillertaler%20Haderlumpen%20Gewaltig"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Die größten Partyhits, Vol. 3",
+  "datum": "2011-12-30",
+  "label": "MCP",
+  "bild": "bilder/alben/490973361.jpg",
+  "apple": "https://music.apple.com/at/album/die-gr%C3%B6%C3%9Ften-partyhits-vol-3/490973361",
+  "spotify": "https://open.spotify.com/search/Grubertaler%20Die%20gr%C3%B6%C3%9Ften%20Partyhits%2C%20Vol.%203"
+ },
+ {
+  "band": "Z3 – Die drei Zillertaler",
+  "titel": "Weihnachten bei uns dahoam",
+  "datum": "2011-11-21",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/482906776.jpg",
+  "apple": "https://music.apple.com/at/album/weihnachten-bei-uns-dahoam/482906776",
+  "spotify": "https://open.spotify.com/search/Z3%2C%20Die%20Drei%20Zillertaler%20%26%20Zillachtol%20G%27song%20Weihnachten%20bei%20uns%20dahoam"
+ },
+ {
+  "band": "Zillertaler Mander",
+  "titel": "Das Beste Aus 10 Jahren",
+  "datum": "2011-07-20",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/453034972.jpg",
+  "apple": "https://music.apple.com/at/album/das-beste-aus-10-jahren/453034972",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Mander%20Das%20Beste%20Aus%2010%20Jahren"
+ },
+ {
+  "band": "Z3 – Die drei Zillertaler",
+  "titel": "Miteinand Pack Ma's Leicht",
+  "datum": "2011-06-08",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/445342079.jpg",
+  "apple": "https://music.apple.com/at/album/miteinand-pack-mas-leicht/445342079",
+  "spotify": "https://open.spotify.com/search/Z3%20Die%20Drei%20Zillertaler%20Miteinand%20Pack%20Ma%27s%20Leicht"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Am Sonntag nach der Kirch'n",
+  "datum": "2011-05-19",
+  "label": "MCP",
+  "bild": "bilder/alben/447755803.jpg",
+  "apple": "https://music.apple.com/at/album/am-sonntag-nach-der-kirchn/447755803",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Am%20Sonntag%20nach%20der%20Kirch%27n"
+ },
+ {
+  "band": "Zillertaler Haderlumpen",
+  "titel": "Zillertaler Haderlumpen Aufeinander Zua",
+  "datum": "2011-03-02",
+  "label": "XHERA music",
+  "bild": "bilder/alben/423757141.jpg",
+  "apple": "https://music.apple.com/at/album/zillertaler-haderlumpen-aufeinander-zua/423757141",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%20Zillertaler%20Haderlumpen%20Aufeinander%20Zua"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Die größten Partyhits - Volume II",
+  "datum": "2010-12-27",
+  "label": "MCP Sound & Media GmbH",
+  "bild": "bilder/alben/410563468.jpg",
+  "apple": "https://music.apple.com/at/album/die-gr%C3%B6%C3%9Ften-partyhits-volume-ii/410563468",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Die%20gr%C3%B6%C3%9Ften%20Partyhits%20-%20Volume%20II"
+ },
+ {
+  "band": "Zillertaler Mander",
+  "titel": "Auf Die Dauer Hilft Nur Power",
+  "datum": "2010-07-22",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/385275554.jpg",
+  "apple": "https://music.apple.com/at/album/auf-die-dauer-hilft-nur-power/385275554",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Mander%20Auf%20Die%20Dauer%20Hilft%20Nur%20Power"
+ },
+ {
+  "band": "Z3 – Die drei Zillertaler",
+  "titel": "A Schneidige Musig",
+  "datum": "2010-07-22",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/385274906.jpg",
+  "apple": "https://music.apple.com/at/album/a-schneidige-musig/385274906",
+  "spotify": "https://open.spotify.com/search/Z3%20Die%20Drei%20Zillertaler%20A%20Schneidige%20Musig"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Wenn, dann jetzt",
+  "datum": "2010-04-23",
+  "label": "MCP",
+  "bild": "bilder/alben/1490470764.jpg",
+  "apple": "https://music.apple.com/at/album/wenn-dann-jetzt/1490470764",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Wenn%2C%20dann%20jetzt"
+ },
+ {
+  "band": "Zillertaler Haderlumpen",
+  "titel": "Uh' Jemmine",
+  "datum": "2010-02-17",
+  "label": "X-Hera Music",
+  "bild": "bilder/alben/360400878.jpg",
+  "apple": "https://music.apple.com/at/album/uh-jemmine/360400878",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%20Uh%27%20Jemmine"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Die Größten Partyhits",
+  "datum": "2010-01-25",
+  "label": "MCP",
+  "bild": "bilder/alben/352562094.jpg",
+  "apple": "https://music.apple.com/at/album/die-gr%C3%B6%C3%9Ften-partyhits/352562094",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Die%20Gr%C3%B6%C3%9Ften%20Partyhits"
+ },
+ {
+  "band": "Die Hegl",
+  "titel": "So a kloanes Stückerl Hoamat",
+  "datum": "2009-07-09",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/324862626.jpg",
+  "apple": "https://music.apple.com/at/album/so-a-kloanes-st%C3%BCckerl-hoamat/324862626",
+  "spotify": "https://open.spotify.com/search/Die%20Hegl%20So%20a%20kloanes%20St%C3%BCckerl%20Hoamat"
+ },
+ {
+  "band": "Z3 – Die drei Zillertaler",
+  "titel": "Wenn a Zillertaler Musig macht",
+  "datum": "2009-06-10",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/321625904.jpg",
+  "apple": "https://music.apple.com/at/album/wenn-a-zillertaler-musig-macht/321625904",
+  "spotify": "https://open.spotify.com/search/Z3%20-%20Die%20Drei%20Zillertaler%20Wenn%20a%20Zillertaler%20Musig%20macht"
+ },
+ {
+  "band": "Zillertaler Haderlumpen",
+  "titel": "2 Herzen - 1 Ewigkeit",
+  "datum": "2009-05-22",
+  "label": "X-HERA Music",
+  "bild": "bilder/alben/317595978.jpg",
+  "apple": "https://music.apple.com/at/album/2-herzen-1-ewigkeit/317595978",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%202%20Herzen%20-%201%20Ewigkeit"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Schneidig drauf",
+  "datum": "2009-04-09",
+  "label": "MCP",
+  "bild": "bilder/alben/312383699.jpg",
+  "apple": "https://music.apple.com/at/album/schneidig-drauf/312383699",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Schneidig%20drauf"
+ },
+ {
+  "band": "Trio Melody Tirol",
+  "titel": "Lange Rede, kurzer Sinn",
+  "datum": "2009-02-06",
+  "label": "MCP Sound & Media",
+  "bild": "bilder/alben/1699635789.jpg",
+  "apple": "https://music.apple.com/at/album/lange-rede-kurzer-sinn/1699635789",
+  "spotify": "https://open.spotify.com/search/Trio%20Melody%20Lange%20Rede%2C%20kurzer%20Sinn"
+ },
+ {
+  "band": "Die Jungen Zellberger",
+  "titel": "Aber jetzt",
+  "datum": "2009-01-01",
+  "label": "VM Records Vertriebsges.m.b.H.",
+  "bild": "bilder/alben/951739651.jpg",
+  "apple": "https://music.apple.com/at/album/aber-jetzt/951739651",
+  "spotify": "https://open.spotify.com/search/Die%20jungen%20Zellberger%20Aber%20jetzt"
+ },
+ {
+  "band": "Zillertaler Mander",
+  "titel": "Schneidig g'jodelt, fetzig g'spielt",
+  "datum": "2008-07-22",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/294911382.jpg",
+  "apple": "https://music.apple.com/at/album/schneidig-gjodelt-fetzig-gspielt/294911382",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Mander%20Schneidig%20g%27jodelt%2C%20fetzig%20g%27spielt"
+ },
+ {
+  "band": "Zillertaler Mander",
+  "titel": "Hereinspaziert Ins Zillertal",
+  "datum": "2008-03-03",
+  "label": "Berton",
+  "bild": "bilder/alben/276740930.jpg",
+  "apple": "https://music.apple.com/at/album/hereinspaziert-ins-zillertal/276740930",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Mander%20Hereinspaziert%20Ins%20Zillertal"
+ },
+ {
+  "band": "Zillertaler Haderlumpen",
+  "titel": "Die Grand Prix Sieger 2007...wie sie früher waren",
+  "datum": "2008-02-12",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/274850844.jpg",
+  "apple": "https://music.apple.com/at/album/die-grand-prix-sieger-2007-wie-sie-fr%C3%BCher-waren/274850844",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%20-%20Sigrid%20%26%20Marina%20Die%20Grand%20Prix%20Sieger%202007...wie%20sie%20fr%C3%BCher%20waren"
+ },
+ {
+  "band": "Zillertaler Haderlumpen",
+  "titel": "Jodeln, singen, fröhlich sein",
+  "datum": "2008-02-08",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/274965614.jpg",
+  "apple": "https://music.apple.com/at/album/jodeln-singen-fr%C3%B6hlich-sein/274965614",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%20Jodeln%2C%20singen%2C%20fr%C3%B6hlich%20sein"
+ },
+ {
+  "band": "Zillertaler Haderlumpen",
+  "titel": "1,2 oder 3000 Jahre",
+  "datum": "2008-01-01",
+  "label": "X-Hera Music",
+  "bild": "bilder/alben/948617542.jpg",
+  "apple": "https://music.apple.com/at/album/1-2-oder-3000-jahre/948617542",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%201%2C2%20oder%203000%20Jahre"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Landleb’n hoaßt z’ommheb’n",
+  "datum": "2007-04-27",
+  "label": "MCP Sound & Media",
+  "bild": "bilder/alben/1621580732.jpg",
+  "apple": "https://music.apple.com/at/album/landlebn-hoa%C3%9Ft-zommhebn/1621580732",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Landleb%E2%80%99n%20hoa%C3%9Ft%20z%E2%80%99ommheb%E2%80%99n"
+ },
+ {
+  "band": "Zillertaler Haderlumpen",
+  "titel": "30 Jahre",
+  "datum": "2007-04-26",
+  "label": "XHERA music",
+  "bild": "bilder/alben/1209994023.jpg",
+  "apple": "https://music.apple.com/at/album/30-jahre/1209994023",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%2030%20Jahre"
+ },
+ {
+  "band": "Zillertaler Haderlumpen",
+  "titel": "20 Jahre Haderlumpen",
+  "datum": "2007-04-26",
+  "label": "X-Hera Music",
+  "bild": "bilder/alben/319354280.jpg",
+  "apple": "https://music.apple.com/at/album/20-jahre-haderlumpen/319354280",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%2020%20Jahre%20Haderlumpen"
+ },
+ {
+  "band": "Zillertaler Haderlumpen",
+  "titel": "10 Jahre",
+  "datum": "2007-04-26",
+  "label": "Tyrolis",
+  "bild": "bilder/alben/1124333746.jpg",
+  "apple": "https://music.apple.com/at/album/10-jahre/1124333746",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%2010%20Jahre"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Das Beste der Grubertaler - Dem Land Tirol die Treue",
+  "datum": "2006-11-30",
+  "label": "MCP",
+  "bild": "bilder/alben/1537614255.jpg",
+  "apple": "https://music.apple.com/at/album/das-beste-der-grubertaler-dem-land-tirol-die-treue/1537614255",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Das%20Beste%20der%20Grubertaler%20-%20Dem%20Land%20Tirol%20die%20Treue"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Sterne der heiligen Nacht",
+  "datum": "2006-10-02",
+  "label": "MCP Sound & Media",
+  "bild": "bilder/alben/1548603465.jpg",
+  "apple": "https://music.apple.com/at/album/sterne-der-heiligen-nacht/1548603465",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Sterne%20der%20heiligen%20Nacht"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Es lebe Volksmusik",
+  "datum": "2006-05-12",
+  "label": "MCP Sound & Media",
+  "bild": "bilder/alben/1623575243.jpg",
+  "apple": "https://music.apple.com/at/album/es-lebe-volksmusik/1623575243",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Es%20lebe%20Volksmusik"
+ },
+ {
+  "band": "Zillertaler Haderlumpen",
+  "titel": "Der Tag beginnt mit dir",
+  "datum": "2006-03-24",
+  "label": "X-Hera Music",
+  "bild": "bilder/alben/948629119.jpg",
+  "apple": "https://music.apple.com/at/album/der-tag-beginnt-mit-dir/948629119",
+  "spotify": "https://open.spotify.com/search/Zillertaler%20Haderlumpen%20Der%20Tag%20beginnt%20mit%20dir"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Made im Alpenland",
+  "datum": "2005-04-29",
+  "label": "MCP Sound & Media",
+  "bild": "bilder/alben/1623575638.jpg",
+  "apple": "https://music.apple.com/at/album/made-im-alpenland/1623575638",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Made%20im%20Alpenland"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Tausche Opernball gegen Zillertal",
+  "datum": "2004-04-18",
+  "label": "MCP Sound & Media",
+  "bild": "bilder/alben/1621581392.jpg",
+  "apple": "https://music.apple.com/at/album/tausche-opernball-gegen-zillertal/1621581392",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Tausche%20Opernball%20gegen%20Zillertal"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Ramba Zamba",
+  "datum": "2004-04-16",
+  "label": "MCP Sound & Media",
+  "bild": "bilder/alben/1621563584.jpg",
+  "apple": "https://music.apple.com/at/album/ramba-zamba/1621563584",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Ramba%20Zamba"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Oh, Oh Baby",
+  "datum": "2003-05-02",
+  "label": "MCP Sound & Media",
+  "bild": "bilder/alben/1621581535.jpg",
+  "apple": "https://music.apple.com/at/album/oh-oh-baby/1621581535",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Oh%2C%20Oh%20Baby"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "Das Beste",
+  "datum": "2003-03-31",
+  "label": "MCP",
+  "bild": "bilder/alben/904247320.jpg",
+  "apple": "https://music.apple.com/at/album/das-beste/904247320",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Das%20Beste"
+ },
+ {
+  "band": "Die Grubertaler",
+  "titel": "A bisserl Mozart, a bisserl Strauss",
+  "datum": "2002-08-16",
+  "label": "MCP Sound & Media",
+  "bild": "bilder/alben/1621562011.jpg",
+  "apple": "https://music.apple.com/at/album/a-bisserl-mozart-a-bisserl-strauss/1621562011",
+  "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20A%20bisserl%20Mozart%2C%20a%20bisserl%20Strauss"
+ },
+ {
+  "band": "Trio Melody Tirol",
+  "titel": "Mei Hoamat und i",
+  "datum": "2001-08-17",
+  "label": "MCP Sound & Media",
+  "bild": "bilder/alben/1699636419.jpg",
+  "apple": "https://music.apple.com/at/album/mei-hoamat-und-i/1699636419",
+  "spotify": "https://open.spotify.com/search/Trio%20Melody%20Mei%20Hoamat%20und%20i"
+ },
+ {
+  "band": "Trio Melody Tirol",
+  "titel": "Mein Herz dreht sich...",
+  "datum": "2001-08-17",
+  "label": "MCP Sound & Media",
+  "bild": "bilder/alben/1700302640.jpg",
+  "apple": "https://music.apple.com/at/album/mein-herz-dreht-sich/1700302640",
+  "spotify": "https://open.spotify.com/search/Trio%20Melody%20Mein%20Herz%20dreht%20sich..."
  }
 ];
 window.MI_SINGLES = [

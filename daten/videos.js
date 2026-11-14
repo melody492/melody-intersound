@@ -524,6 +524,9 @@ window.MI_DATEN = {
    "name": "Halodris aus dem Zillertal"
   },
   {
+   "name": "Die Hegl"
+  },
+  {
    "name": "Herzbluat"
   },
   {
