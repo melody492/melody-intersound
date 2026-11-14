@@ -497,9 +497,6 @@ window.MI_DATEN = {
    "name": "De Hutzenbossen"
   },
   {
-   "name": "De Randfichten"
-  },
-  {
    "name": "DJ Mox"
   },
   {
