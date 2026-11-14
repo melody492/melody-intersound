@@ -45,11 +45,6 @@ nav a:hover{color:var(--weiss)}
 .hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;color:var(--weiss);
   background:linear-gradient(180deg,rgba(0,0,0,.25) 0%,rgba(0,0,0,.35) 45%,rgba(0,0,0,.85) 100%),url(bilder/studio.jpg) center/cover no-repeat}
 .hero .wrap{padding-bottom:9vh}
-.hero{overflow:hidden}
-.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.2s ease}
-.hero-video.laeuft{opacity:1}
-.hero-schleier{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,.4) 45%,rgba(0,0,0,.88) 100%)}
-.hero .wrap{position:relative;z-index:1}
 .hero .seit{display:inline-block;font-size:.8rem;letter-spacing:.25em;text-transform:uppercase;color:#e9c9c9;border-left:3px solid var(--rot-hell);padding-left:12px;margin-bottom:18px}
 .hero h1{font-size:clamp(2rem,5.2vw,3.6rem);line-height:1.12;font-weight:700;max-width:16ch}
 .hero h1 span{color:#ff5a5a}
@@ -255,8 +250,6 @@ footer img{height:30px;width:auto;margin:0 auto 14px}
 </header>
 
 <section class="hero" id="start">
-  <video class="hero-video" id="heroVideo" muted loop playsinline preload="none" poster="video/start-poster.jpg" aria-hidden="true"></video>
-  <div class="hero-schleier" aria-hidden="true"></div>
   <div class="wrap">
     <div class="seit">Tonstudio in Tirol · seit 1997</div>
     <h1>Herzlich Willkommen im Tonstudio <span>Melody Intersound</span></h1>
@@ -481,14 +474,6 @@ footer img{height:30px;width:auto;margin:0 auto 14px}
 })();
 
 document.getElementById('jahr').textContent = new Date().getFullYear();
-// Startvideo: nur wenn keine reduzierte Bewegung / kein Datensparmodus; Handy bekommt 720p
-(function(){ const v=document.getElementById('heroVideo'); if(!v) return;
-  const ruhig=matchMedia('(prefers-reduced-motion: reduce)').matches, sparen=navigator.connection&&navigator.connection.saveData;
-  if(ruhig||sparen) return;
-  v.src = innerWidth < 900 ? 'video/start-720.mp4' : 'video/start-1080.mp4';
-  v.addEventListener('playing', () => v.classList.add('laeuft'), {once:true});
-  v.play().catch(()=>{});
-})();
 (function(){ const j = document.getElementById('jahre'), n = new Date().getFullYear() - 1997; j.dataset.ziel = n; j.textContent = n; })();
 // Einblenden + Zähler beim Scrollen
 const zaehlen = el => {
