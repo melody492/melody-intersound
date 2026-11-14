@@ -625,15 +625,6 @@ window.MI_SINGLES = [
  },
  {
   "band": "Ligist 3",
-  "titel": "Mei Motorsog",
-  "datum": "2026-03-13",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1887905760.jpg",
-  "apple": "https://music.apple.com/at/album/mei-motorsog-single/1887905760",
-  "spotify": "https://open.spotify.com/search/Ligist%203%20Mei%20Motorsog"
- },
- {
-  "band": "Ligist 3",
   "titel": "Sonntag - Tag des Herrn",
   "datum": "2026-03-01",
   "label": "Tyrolis",
