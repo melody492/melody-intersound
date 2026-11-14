@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Erler;Stephan;;;
+FN:Stephan Erler
+ORG:Melody Intersound
+TITLE:Tonstudio · Musikverlag Edition Sarah · Videoproduktion
+TEL;TYPE=CELL,VOICE:+43 664 2006789
+EMAIL;TYPE=INTERNET,WORK:st.erler@me.com
+ADR;TYPE=WORK:;;Leimbach 5;Weerberg;;6133;Österreich
+URL:https://www.melody-intersound.com
+END:VCARD

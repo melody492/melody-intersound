@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Melody Intersound – Das Klangerlebnis aus Tirol</title>
+<meta name="description" content="Tonstudio Melody Intersound in Weerberg, Tirol: Recording, Mixdown, Mastering, Arrangement, Komposition & Texte, Werbespots, Telefonansagen, Musikvideos & Videoproduktion und Musikverlag.">
+<link rel="icon" type="image/png" href="bilder/logo-icon.png">
+<link rel="canonical" href="https://www.melody-intersound.com/">
+<link rel="apple-touch-icon" href="bilder/apple-touch-icon.png">
+<meta name="theme-color" content="#141414">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.melody-intersound.com/">
+<meta property="og:site_name" content="Melody Intersound">
+<meta property="og:locale" content="de_AT">
+<meta property="og:title" content="Melody Intersound – Das Klangerlebnis aus Tirol">
+<meta property="og:description" content="Tonstudio, Musikverlage und Musikvideos aus Weerberg in Tirol – seit 1997.">
+<meta property="og:image" content="https://www.melody-intersound.com/bilder/vorschau-teilen.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<style>
+:root{
+  --rot:#960000; --rot-hell:#c01a1a; --dunkel:#141414; --dunkel2:#1d1d1d;
+  --text:#2b2b2b; --grau:#6b6b6b; --hell:#f6f4f2; --weiss:#fff;
+  --max:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--text);background:var(--weiss);line-height:1.65;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--rot);text-decoration:none}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+
+/* Kopfzeile */
+header{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(20,20,20,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.kopf{display:flex;align-items:center;justify-content:space-between;height:64px}
+.kopf img{height:34px;width:auto}
+nav a{color:#ddd;font-size:.92rem;letter-spacing:.04em;margin-left:26px;transition:color .2s}
+nav a:hover{color:var(--weiss)}
+.menu-btn{display:none;background:none;border:0;color:#fff;font-size:1.6rem;cursor:pointer}
+
+/* Startbild */
+.hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;color:var(--weiss);
+  background:linear-gradient(180deg,rgba(0,0,0,.25) 0%,rgba(0,0,0,.35) 45%,rgba(0,0,0,.85) 100%),url(bilder/studio.jpg) center/cover no-repeat}
+.hero .wrap{padding-bottom:9vh}
+.hero{overflow:hidden}
+.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.2s ease}
+.hero-video.laeuft{opacity:1}
+.hero-schleier{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,.4) 45%,rgba(0,0,0,.88) 100%)}
+.hero .wrap{position:relative;z-index:1}
+.hero .seit{display:inline-block;font-size:.8rem;letter-spacing:.25em;text-transform:uppercase;color:#e9c9c9;border-left:3px solid var(--rot-hell);padding-left:12px;margin-bottom:18px}
+.hero h1{font-size:clamp(2rem,5.2vw,3.6rem);line-height:1.12;font-weight:700;max-width:16ch}
+.hero h1 span{color:#ff5a5a}
+.hero p{max-width:60ch;margin-top:20px;font-size:1.08rem;color:#eee}
+.knopf{display:inline-block;margin-top:30px;background:var(--rot);color:#fff;padding:14px 28px;border-radius:40px;font-weight:600;letter-spacing:.03em;transition:background .2s,transform .2s}
+.knopf:hover{background:var(--rot-hell);transform:translateY(-2px)}
+
+/* Abschnitte */
+section{padding:96px 0}
+.titel{text-align:center;margin-bottom:56px}
+.titel h2{font-size:clamp(1.6rem,3.4vw,2.3rem);font-weight:700;color:var(--dunkel)}
+.titel h2::after{content:"";display:block;width:56px;height:3px;background:var(--rot);margin:16px auto 0}
+.titel p{color:var(--grau);margin-top:16px}
+
+/* Leistungen */
+.leistungen{background:var(--hell)}
+.raster{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:900px;margin:0 auto}
+.karte{background:var(--weiss);border-radius:14px;padding:30px 16px 26px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px;box-shadow:0 2px 14px rgba(0,0,0,.05);transition:transform .25s,box-shadow .25s}
+.karte:hover{transform:translateY(-4px);box-shadow:0 10px 28px rgba(150,0,0,.12)}
+.symbol{flex:none;width:54px;height:54px;border-radius:50%;background:var(--rot);display:grid;place-items:center}
+.symbol svg{width:26px;height:26px;stroke:#fff;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.karte h3{font-size:1.08rem;color:var(--rot);font-weight:650}
+
+/* Erfolge */
+.erfolge{position:relative;color:var(--weiss);background:linear-gradient(rgba(10,10,10,.82),rgba(10,10,10,.82)),url(bilder/mikrofon.jpg) center/cover no-repeat fixed}
+.erfolge .titel h2{color:var(--weiss)}
+.preise{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.preis{position:relative;text-align:center;padding:44px 26px 38px;border-radius:20px;
+  background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));
+  border:1px solid rgba(232,196,104,.28);box-shadow:0 20px 50px rgba(0,0,0,.45);overflow:hidden}
+.preis::before{content:"";position:absolute;inset:-40% -40% auto auto;width:220px;height:220px;border-radius:50%;
+  background:radial-gradient(circle,rgba(232,196,104,.18),transparent 70%)}
+.preis .bild{height:190px;display:flex;align-items:center;justify-content:center;margin-bottom:22px;position:relative}
+.preis .bild img{height:100%;width:auto;filter:drop-shadow(0 18px 26px rgba(0,0,0,.65))}
+.preis .platten{position:relative}
+.preis .platten .gold{height:100%;position:relative;z-index:2;margin-right:-70px}
+.preis .platten .platin{height:84%;order:2;margin-top:-18px}
+.preis b{display:block;font-size:clamp(4rem,8vw,6.2rem);font-weight:800;line-height:1;letter-spacing:-.02em;
+  background:linear-gradient(180deg,#fff6cf 0%,#f0cf73 40%,#b8862b 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.preis h3{margin-top:12px;font-size:1.25rem;font-weight:650;color:#fff}
+.preis p{margin-top:8px;color:#bdbdbd;font-size:.95rem}
+
+/* Musikvideos */
+.videos{background:var(--dunkel);color:#fff}
+.videos .titel h2{color:#fff}
+.videos .titel p{color:#aaa}
+.kennzahl{display:flex;justify-content:center;gap:56px;flex-wrap:wrap;margin:-20px 0 44px;text-align:center}
+.kennzahl b{display:block;font-size:clamp(2.2rem,5vw,3.4rem);font-weight:800;color:#ff4d4d;line-height:1.1}
+.kennzahl span{color:#bbb;font-size:.95rem}
+.sortierung{display:flex;justify-content:center;gap:10px;margin-bottom:30px}
+.sortierung button{background:none;border:1.5px solid #444;color:#ddd;padding:9px 20px;border-radius:30px;cursor:pointer;font:inherit;font-size:.9rem}
+.sortierung button.aktiv{background:var(--rot);border-color:var(--rot);color:#fff}
+.galerie{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.clip{background:#1f1f1f;border-radius:12px;overflow:hidden;cursor:pointer;border:0;color:inherit;text-align:left;font:inherit;padding:0;transition:transform .25s,box-shadow .25s}
+.clip:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.5)}
+.clip .bildrahmen{position:relative;aspect-ratio:16/9;overflow:hidden;background:#000}
+.clip img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.clip:hover img{transform:scale(1.05)}
+.clip .play{position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(transparent 55%,rgba(0,0,0,.55))}
+.clip .play i{width:56px;height:56px;border-radius:50%;background:rgba(150,0,0,.92);display:grid;place-items:center;box-shadow:0 4px 18px rgba(0,0,0,.4)}
+.clip .play svg{width:22px;height:22px;fill:#fff;margin-left:3px}
+.clip .neu{position:absolute;top:12px;left:12px;background:var(--rot-hell);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.12em;padding:5px 10px;border-radius:20px;box-shadow:0 4px 12px rgba(0,0,0,.4)}
+.galerie.gross .clip:first-child{grid-column:span 2;grid-row:span 2}
+.galerie.gross .clip:first-child{display:flex;flex-direction:column}
+.galerie.gross .clip:first-child .bildrahmen{flex:1;aspect-ratio:auto;min-height:0}
+.galerie.gross .clip:first-child .name{font-size:1.35rem}
+.galerie{grid-auto-flow:dense}
+.clip .info{padding:14px 16px 16px}
+.clip .band{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:#ff6b6b}
+.clip .name{font-weight:600;margin:3px 0 6px;line-height:1.35}
+.clip .meta{font-size:.82rem;color:#999}
+.mehr{display:block;margin:36px auto 0;background:none;border:1.5px solid #555;color:#fff;padding:12px 30px;border-radius:30px;cursor:pointer;font:inherit}
+.mehr:hover{border-color:var(--rot-hell);background:var(--rot)}
+.hinweis{text-align:center;color:#777;font-size:.8rem;margin-top:22px}
+.player{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;padding:16px}
+.player.offen{display:flex}
+.player .rahmen{width:min(1100px,100%);aspect-ratio:16/9;background:#000}
+.player iframe{width:100%;height:100%;border:0}
+.player .zu{position:absolute;top:14px;right:18px;background:none;border:0;color:#fff;font-size:2.2rem;cursor:pointer;line-height:1}
+
+/* Referenzen */
+.referenzen{background:#0d0d0d;padding:54px 0 60px;overflow:hidden}
+.referenzen h2{text-align:center;color:#ddd;font-size:1rem;letter-spacing:.25em;text-transform:uppercase;font-weight:500;margin-bottom:28px}
+.band-band{display:flex;width:max-content;animation:laufen 60s linear infinite}
+.referenzen:hover .band-band{animation-play-state:paused}
+.band-band span{white-space:nowrap;font-size:clamp(1.3rem,2.6vw,1.9rem);font-weight:700;color:#cfcfcf;padding:0 34px;position:relative}
+.band-band span::after{content:"♪";position:absolute;right:-8px;color:var(--rot-hell);font-size:.8em;top:.15em}
+@keyframes laufen{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* Zeitleiste */
+.zeitleiste{background:var(--weiss)}
+.zeitstrahl{list-style:none;position:relative;max-width:900px;margin:0 auto}
+.zeitstrahl::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:2px;background:linear-gradient(var(--rot),rgba(150,0,0,.15));transform:translateX(-50%)}
+.ereignis{position:relative;width:50%;padding:0 44px 46px 0;text-align:right}
+.ereignis:nth-child(even){margin-left:50%;padding:0 0 46px 44px;text-align:left}
+.ereignis::after{content:"";position:absolute;top:8px;right:-8px;width:16px;height:16px;border-radius:50%;background:var(--weiss);border:3px solid var(--rot);box-shadow:0 0 0 5px rgba(150,0,0,.1)}
+.ereignis:nth-child(even)::after{right:auto;left:-8px}
+.ereignis .jahr{font-size:clamp(1.8rem,3.4vw,2.4rem);font-weight:800;line-height:1;color:var(--rot);letter-spacing:-.01em}
+.ereignis h3{font-size:1.08rem;color:var(--dunkel);margin:8px 0 6px}
+.ereignis p{color:#555;font-size:.95rem}
+.ereignis:last-child .jahr{color:var(--dunkel)}
+.ereignis:last-child::after{background:var(--rot)}
+
+/* Verlag */
+.verlag{background:var(--hell)}
+.verlag-inhalt{display:grid;grid-template-columns:.7fr 1.3fr;gap:56px;align-items:center}
+.verlag-zeichen{background:var(--dunkel);border-radius:18px;aspect-ratio:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;box-shadow:0 18px 40px rgba(0,0,0,.18)}
+.verlag-zeichen img{width:34%;height:auto}
+.verlag-zeichen .und{color:var(--rot-hell);font-size:1.2rem;letter-spacing:0;margin:-10px 0}
+.verlag-zeichen span{color:#eee;font-size:clamp(1.3rem,2.6vw,1.9rem);font-weight:300;letter-spacing:.12em;text-transform:uppercase}
+.verlag h2{font-size:clamp(1.5rem,3vw,2.1rem);color:var(--dunkel);margin-bottom:18px}
+.verlag p{color:#444}
+.verlag ul{margin:16px 0 0 0;list-style:none}
+.verlag li{padding:7px 0 7px 28px;position:relative;color:#333}
+.verlag li::before{content:"♪";position:absolute;left:4px;color:var(--rot);font-weight:700}
+
+/* Weerberg / Anfahrt */
+.lage{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.lage img{border-radius:16px;box-shadow:0 18px 40px rgba(0,0,0,.18);aspect-ratio:4/3;object-fit:cover}
+.lage h2{font-size:clamp(1.5rem,3vw,2.1rem);color:var(--dunkel);margin-bottom:18px}
+.lage p{color:#444}
+
+/* Social Media */
+.social{background:var(--dunkel2);color:#fff;padding:70px 0;text-align:center}
+.social h2{font-size:1.5rem;font-weight:600;margin-bottom:28px}
+.social a{display:inline-flex;align-items:center;gap:10px;margin:8px 10px;padding:13px 26px;border:1.5px solid #444;border-radius:40px;color:#fff;transition:all .2s}
+.social a:hover{border-color:var(--rot-hell);background:var(--rot)}
+.social svg{width:20px;height:20px;fill:#fff}
+
+/* Kontakt */
+.kontakt-raster{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;text-align:center}
+.kontakt-raster div{background:var(--hell);border-radius:14px;padding:32px 20px}
+.kontakt-raster small{display:block;text-transform:uppercase;letter-spacing:.18em;font-size:.75rem;color:var(--grau);margin-bottom:10px}
+.kontakt-raster a,.kontakt-raster p{font-size:1.05rem;color:var(--dunkel);font-weight:500}
+.kontakt-raster a:hover{color:var(--rot)}
+
+/* Fuß */
+footer{background:var(--dunkel);color:#9a9a9a;padding:56px 0 34px;font-size:.88rem}
+.fuss{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+footer h3{color:#ddd;font-size:.95rem;margin-bottom:12px;font-weight:600}
+footer p{margin-bottom:6px}
+footer .unten{border-top:1px solid #2a2a2a;margin-top:36px;padding-top:22px;text-align:center}
+footer img{height:30px;width:auto;margin:0 auto 14px}
+
+/* Einblenden beim Scrollen */
+.einblenden{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.einblenden.sichtbar{opacity:1;transform:none}
+
+@media (max-width:900px){
+  .raster{grid-template-columns:repeat(2,1fr);gap:14px}
+  .karte{padding:24px 12px 20px}
+  .karte:last-child:nth-child(odd){grid-column:1/-1}
+  .karte h3{font-size:1rem}
+  .preise{grid-template-columns:1fr;max-width:460px;margin:0 auto;gap:20px}
+  .lage{grid-template-columns:1fr;gap:32px}
+  .verlag-inhalt{grid-template-columns:1fr;gap:32px}
+  .zeitstrahl::before{left:8px}
+  .ereignis,.ereignis:nth-child(even){width:auto;margin-left:0;padding:0 0 36px 40px;text-align:left}
+  .ereignis::after,.ereignis:nth-child(even)::after{left:0;right:auto}
+  .verlag-zeichen{aspect-ratio:auto;padding:36px 20px;gap:10px}
+  .verlag-zeichen img{width:56px}
+  .kontakt-raster{grid-template-columns:1fr}
+  .erfolge{background-attachment:scroll}
+  .galerie{grid-template-columns:repeat(2,1fr);gap:14px}
+}
+@media (max-width:720px){
+  .wrap{padding:0 16px}
+  .menu-btn{display:block}
+  nav{display:none;position:absolute;top:64px;left:0;right:0;background:rgba(20,20,20,.97);padding:10px 0 18px}
+  nav.offen{display:block}
+  nav a{display:block;margin:0;padding:12px 24px;font-size:1rem}
+  .fuss{grid-template-columns:1fr}
+  section{padding:72px 0}
+  .hero{min-height:88vh}
+  .galerie{grid-template-columns:1fr}
+  .galerie.gross .clip:first-child{grid-column:auto;grid-row:auto}
+  .galerie.gross .clip:first-child .bildrahmen{aspect-ratio:16/9;flex:none}
+  .kennzahl{gap:30px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .band-band{animation:none;flex-wrap:wrap;width:auto;justify-content:center}
+  .einblenden{opacity:1;transform:none;transition:none}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap kopf">
+    <a href="#start" aria-label="Melody Intersound – zum Seitenanfang"><img src="bilder/logo-schrift.png" alt="Melody Intersound – Das Klangerlebnis aus Tirol"></a>
+    <button class="menu-btn" aria-label="Menü" onclick="document.querySelector('nav').classList.toggle('offen')">☰</button>
+    <nav onclick="this.classList.remove('offen')">
+      <a href="#leistungen">Leistungen</a>
+      <a href="#musikvideos">Musikvideos</a>
+      <a href="#erfolge">Erfolge</a>
+      <a href="#geschichte">Geschichte</a>
+      <a href="#verlag">Verlage</a>
+      <a href="#studio">Das Studio</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="start">
+  <video class="hero-video" id="heroVideo" muted loop playsinline preload="none" poster="video/start-poster.jpg" aria-hidden="true"></video>
+  <div class="hero-schleier" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="seit">Tonstudio in Tirol · seit 1997</div>
+    <h1>Herzlich Willkommen im Tonstudio <span>Melody Intersound</span></h1>
+    <p>Unsere jahrelange Erfahrung macht uns zu einem professionellen Partner in allen Fragen der Musik- und Audioproduktion. Unser Studio bietet den idealen Rahmen für professionelle Musikproduktionen. Ein Rahmen, in dem wir mit Können und Erfahrung Eurer Musik das optimale Klangbild verleihen. In allen oder einzelnen Phasen der Produktion.</p>
+    <a class="knopf" href="#kontakt">Kontakt aufnehmen</a>
+  </div>
+</section>
+
+<section class="leistungen" id="leistungen">
+  <div class="wrap">
+    <div class="titel einblenden"><h2>Unsere Services</h2></div>
+    <div class="raster">
+      <div class="karte einblenden"><div class="symbol"><svg viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2.5z"/><path d="M9 7v6.5"/><circle cx="7.6" cy="13.8" r="1.6"/><path d="M9 7l5-1"/></svg></div><h3>Musikverlag</h3></div>
+      <div class="karte einblenden"><div class="symbol"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></div><h3>Telefonansagen</h3></div>
+      <div class="karte einblenden"><div class="symbol"><svg viewBox="0 0 24 24"><path d="M3 11v3a1 1 0 0 0 1 1h3l5 4V6L7 10H4a1 1 0 0 0-1 1z"/><path d="M16 8.5a5 5 0 0 1 0 7"/><path d="M19 5.5a9 9 0 0 1 0 13"/></svg></div><h3>Werbespots</h3></div>
+      <div class="karte einblenden"><div class="symbol"><svg viewBox="0 0 24 24"><path d="M3 12h2l2-6 3 12 3-9 2 6 2-3h4"/></svg></div><h3>Mastering</h3></div>
+      <div class="karte einblenden"><div class="symbol"><svg viewBox="0 0 24 24"><path d="M6 3v18M12 3v18M18 3v18"/><rect x="4" y="13" width="4" height="3" rx="1"/><rect x="10" y="7" width="4" height="3" rx="1"/><rect x="16" y="11" width="4" height="3" rx="1"/></svg></div><h3>Mixdown</h3></div>
+      <div class="karte einblenden"><div class="symbol"><svg viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v4M8 22h8"/></svg></div><h3>Recording</h3></div>
+      <div class="karte einblenden"><div class="symbol"><svg viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div><h3>Arrangement</h3></div>
+      <div class="karte einblenden"><div class="symbol"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></div><h3>Komposition &amp; Texte</h3></div>
+      <div class="karte einblenden"><div class="symbol"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="M16 10.5l6-3.5v10l-6-3.5"/></svg></div><h3>Musikvideos &amp; Videoproduktion</h3></div>
+    </div>
+  </div>
+</section>
+
+<section class="videos" id="musikvideos">
+  <div class="wrap">
+    <div class="titel einblenden"><h2>Unsere Musikvideos</h2><p>Gedreht und geschnitten von Melody Intersound</p></div>
+    <div class="kennzahl einblenden">
+      <div><b id="v-gesamt">–</b><span>Aufrufe auf YouTube</span></div>
+      <div><b id="v-schnitt">–</b><span>Aufrufe pro Video im Schnitt</span></div>
+    </div>
+    <div class="sortierung">
+      <button type="button" class="aktiv" data-sort="neu">Neueste</button>
+      <button type="button" data-sort="beliebt">Meistgesehen</button>
+    </div>
+    <div class="galerie" id="galerie"></div>
+    <button type="button" class="mehr" id="mehr">Weitere Videos anzeigen</button>
+    <p class="hinweis">Videos werden erst beim Anklicken von YouTube geladen. · Stand der Aufrufe: <span id="v-stand"></span></p>
+  </div>
+</section>
+
+<div class="referenzen" aria-label="Referenzen">
+  <h2>Referenzen</h2>
+  <div class="band-band" id="bandband"></div>
+</div>
+
+<div class="player" id="player" role="dialog" aria-modal="true" aria-label="Musikvideo">
+  <button class="zu" type="button" aria-label="Schließen">×</button>
+  <div class="rahmen" id="rahmen"></div>
+</div>
+
+<section class="erfolge" id="erfolge">
+  <div class="wrap">
+    <div class="titel einblenden"><h2>Unsere Erfolge</h2></div>
+    <div class="preise">
+      <div class="preis einblenden">
+        <div class="bild platten"><img class="platin" src="bilder/preise/platin.webp" alt="Platin-Schallplatte" loading="lazy"><img class="gold" src="bilder/preise/gold.webp" alt="Goldene Schallplatte" loading="lazy"></div>
+        <b data-ziel="36">36</b>
+        <h3>Gold- &amp; Platin-Auszeichnungen</h3>
+        <p>34× Gold · 2× Platin</p>
+      </div>
+      <div class="preis einblenden">
+        <div class="bild"><img src="bilder/preise/bergkristall.webp" alt="Bergkristall-Trophäe des Grand Prix der Volksmusik" loading="lazy"></div>
+        <b data-ziel="3">3</b>
+        <h3>Grand-Prix-Siege</h3>
+        <p>2× Grand Prix der Volksmusik Österreich<br>1× Grand Prix der Volksmusik International</p>
+      </div>
+      <div class="preis einblenden">
+        <div class="bild"><img src="bilder/preise/mikrofon.webp" alt="Studiomikrofon" loading="lazy"></div>
+        <b id="jahre" data-ziel="29">29</b>
+        <h3>Jahre Tonstudio</h3>
+        <p>Musikproduktion aus Tirol · seit 1997</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="zeitleiste" id="geschichte">
+  <div class="wrap">
+    <div class="titel einblenden"><h2>Seit 1997</h2><p>Meilensteine aus fast drei Jahrzehnten Musikproduktion</p></div>
+    <ol class="zeitstrahl">
+      <li class="ereignis einblenden"><div class="jahr">1997</div><div class="inhalt"><h3>Gründung von Melody Intersound</h3><p>Stephan Erler eröffnet in Weerberg sein Tonstudio – Musikproduktion aus Tirol, für Tirol und weit darüber hinaus.</p></div></li>
+      <li class="ereignis einblenden"><div class="jahr">2000</div><div class="inhalt"><h3>Erste Grand-Prix-Produktionen</h3><p>Arrangements für Titel beim Grand Prix der Volksmusik, dazu Produktionen für die Zillertaler Vagabunden, die Südtiroler Spitzbuam und ZIM.</p></div></li>
+      <li class="ereignis einblenden"><div class="jahr">2001</div><div class="inhalt"><h3>Marc Pircher, Ursprung Buam, Marabell</h3><p>Das Studio wird zur festen Adresse der volkstümlichen Szene – vom Duett bis zum kompletten Album.</p></div></li>
+      <li class="ereignis einblenden"><div class="jahr">2002</div><div class="inhalt"><h3>Start mit den Grubertalern</h3><p>Beginn der langjährigen Zusammenarbeit mit den Grubertalern, dazu Produktionen für die Stubaitaler und die Jungen Neustifter.</p></div></li>
+      <li class="ereignis einblenden"><div class="jahr">2003</div><div class="inhalt"><h3>Zillertal Buam beim Grand Prix</h3><p>Produktion des Grand-Prix-Titels „Umma über’n Berg“; außerdem Uli Bastian, Mary M. und die Original Zillertaler.</p></div></li>
+      <li class="ereignis einblenden"><div class="jahr">2005</div><div class="inhalt"><h3>Weitere große Namen</h3><p>Produktionen für Marc Pircher, die Zellberg Buam, die Arlberger Spitzbuam und die Lavanttaler.</p></div></li>
+      <li class="ereignis einblenden"><div class="jahr">2006</div><div class="inhalt"><h3>Romantik Express & Zillertaler Haderlumpen</h3><p>Beginn zweier Partnerschaften, die das Studio über viele Jahre begleiten.</p></div></li>
+      <li class="ereignis einblenden"><div class="jahr">2008</div><div class="inhalt"><h3>Zillertaler Mander, Zillertal Power & mehr</h3><p>Alben für die Zillertaler Mander, Zillertal Power, die Bergcasanovas und die Jungen Zellberger.</p></div></li>
+      <li class="ereignis einblenden"><div class="jahr">2009</div><div class="inhalt"><h3>Edlseer & Florian Fesl</h3><p>Produktionen für die Edlseer und das Album von Florian Fesl.</p></div></li>
+      <li class="ereignis einblenden"><div class="jahr">2020</div><div class="inhalt"><h3>Das erste Musikvideo</h3><p>Mit „So a schön’s Panorama“ der Tiroler Partymander beginnt die Videoproduktion – gedreht und geschnitten im eigenen Haus.</p></div></li>
+      <li class="ereignis einblenden"><div class="jahr">2022</div><div class="inhalt"><h3>25 Jahre Melody Intersound</h3><p>Radio U1 Tirol widmet dem Studio eine eigene Jubiläumssendung.</p></div></li>
+      <li class="ereignis einblenden"><div class="jahr">HEUTE</div><div class="inhalt"><h3>Ton und Bild aus einer Hand</h3><p>Musikproduktion, zwei Musikverlage und Musikvideos mit über <span id="zeit-aufrufe">6,5 Millionen</span> Aufrufen auf YouTube.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="verlag" id="verlag">
+  <div class="wrap verlag-inhalt">
+    <div class="verlag-zeichen einblenden"><img src="bilder/logo-icon.png" alt="" loading="lazy"><span>Edition Sarah</span><span class="und">&amp;</span><span>Edition Hitmix</span></div>
+    <div class="einblenden">
+      <h2>Unsere Musikverlage</h2>
+      <p>Mit unseren beiden Verlagen <strong>Edition Sarah</strong> und <strong>Edition Hitmix</strong> betreuen wir Komponisten und Textautoren aus der Volksmusik und der volkstümlichen Musik. Als Vollmitglied der AKM kümmern wir uns um alles, was ein neues Werk braucht, damit es seinen Weg geht und für seine Urheber Ertrag bringt:</p>
+      <ul>
+        <li>Verlagsverträge und Werkanmeldung bei der AKM</li>
+        <li>Zusammenarbeit mit anderen Verlagen im Co-Verlag</li>
+        <li>Abrechnung und Weiterleitung der Tantiemen</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="studio">
+  <div class="wrap lage">
+    <img class="einblenden" src="bilder/gitarre.jpg" alt="Akustikgitarre im warmen Bühnenlicht" loading="lazy">
+    <div class="einblenden">
+      <h2>Unser Tonstudio in Weerberg</h2>
+      <p>Unser Tonstudio Melody Intersound liegt im wunderschönen Erholungsdorf Weerberg in Tirol/Österreich auf einem Sonnenplateau über dem Unterinntal.</p>
+      <p style="margin-top:14px">Weerberg ist ganzjährig mit dem PKW bequem und schnell erreichbar über die Inntalautobahn A12 bis zur Ausfahrt Vomp, dann Richtung Pill und von dort schlängelt sich eine gut ausgebaute Straße mit herrlichem Panoramablick in das Inntal zu uns herauf.</p>
+      <a class="knopf" href="https://maps.apple.com/?address=Leimbach%205,%206133%20Weerberg,%20%C3%96sterreich" target="_blank" rel="noopener">Route planen</a>
+    </div>
+  </div>
+</section>
+
+<div class="social">
+  <div class="wrap">
+    <h2>Besuche uns auf unseren Social-Media-Kanälen</h2>
+    <a href="https://www.facebook.com/Melody-Intersound-242883701596/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v9h4v-9h3l.5-4h-3.5V8.8c0-.5.3-.8.5-.8z"/></svg>Facebook</a>
+    <a href="https://www.instagram.com/melodyintersound/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.9a4.9 4.9 0 1 0 0 9.8 4.9 4.9 0 0 0 0-9.8zm0 8.1a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.1-9.4a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg>Instagram</a>
+    <a href="https://www.youtube.com/user/MelodyIntersound/featured" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15.1V8.9l5.8 3.1z"/></svg>YouTube</a>
+  </div>
+</div>
+
+<section id="kontakt">
+  <div class="wrap">
+    <div class="titel einblenden"><h2>Kontaktiere uns</h2></div>
+    <div class="kontakt-raster">
+      <div class="einblenden"><small>Adresse</small><p>Melody Intersound<br>Leimbach 5<br>A-6133 Weerberg, Austria</p></div>
+      <div class="einblenden"><small>Telefon</small><a href="tel:+436642006789">+43 (0) 664 200 6789</a></div>
+      <div class="einblenden"><small>E-Mail</small><a href="mailto:st.erler@me.com">st.erler@me.com</a></div>
+    </div>
+    <div style="text-align:center"><a class="knopf" href="kontakt.vcf" download="Melody-Intersound.vcf">＋ Kontakt im Handy speichern</a></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fuss">
+      <div id="impressum">
+        <h3>Impressum</h3>
+        <p>Melody Intersound – Stephan Erler<br>Tonstudio und Musikverlag<br>Leimbach 5, 6133 Weerberg, Österreich</p>
+        <p>Telefon: +43 (0) 664 200 6789 · E-Mail: st.erler@me.com</p>
+        <p>UID-Nr.: ATU 53991202</p>
+        <p>Mitglied der Wirtschaftskammer Tirol · Gewerbebehörde: Bezirkshauptmannschaft Schwaz</p>
+      </div>
+      <div id="datenschutz">
+        <h3>Datenschutz</h3>
+        <p>Diese Website setzt keine Cookies und verwendet keine Analyse- oder Tracking-Dienste. Beim Aufruf verarbeitet der Hosting-Anbieter technisch notwendige Zugriffsdaten (z. B. IP-Adresse). Musikvideos werden erst abgespielt und von YouTube (Google Ireland Ltd.) im erweiterten Datenschutzmodus geladen, wenn Sie ein Video anklicken; bis dahin werden keine Daten an YouTube übertragen. Links zu Facebook, Instagram und YouTube führen auf die Seiten dieser Anbieter; dort gelten deren Datenschutzbestimmungen.</p>
+      </div>
+    </div>
+    <div class="unten">
+      <img src="bilder/logo-schrift.png" alt="Melody Intersound">
+      © <span id="jahr">2026</span> Melody Intersound · Das Klangerlebnis aus Tirol
+    </div>
+  </div>
+</footer>
+
+<script src="daten/videos.js"></script>
+<script>
+// ---- Musikvideo-Galerie + Referenzen ----
+(function(){
+  const D = window.MI_DATEN; if (!D) return;
+  const fmt = n => n.toLocaleString('de-DE');
+  const gesamtEl = document.getElementById('v-gesamt');
+  gesamtEl.dataset.ziel = D.gesamt; gesamtEl.textContent = fmt(D.gesamt);
+  document.getElementById('v-schnitt').textContent = fmt(Math.round(D.gesamt / D.anzahl));
+  document.getElementById('v-stand').textContent = D.stand;
+  const za=document.getElementById('zeit-aufrufe'); if(za) za.textContent=(Math.floor(D.gesamt/100000)/10).toLocaleString('de-DE')+' Millionen';
+
+  const galerie = document.getElementById('galerie'), mehr = document.getElementById('mehr');
+  const neuestes = [...D.videos].sort((a,b) => b.datum.localeCompare(a.datum))[0].id;
+  const SCHRITT = 9; let sicht = SCHRITT, sort = 'neu';
+  const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const zeichnen = () => {
+    const liste = [...D.videos].sort(sort === 'neu'
+      ? (a,b) => b.datum.localeCompare(a.datum) : (a,b) => b.views - a.views);
+    galerie.classList.toggle('gross', sort === 'neu');
+    galerie.innerHTML = liste.slice(0, sicht).map(v => `
+      <button type="button" class="clip" data-id="${v.id}" aria-label="${esc(v.band)} – ${esc(v.titel)} abspielen">
+        <div class="bildrahmen"><img src="${v.bild}" alt="" loading="lazy">${v.id === neuestes ? '<span class="neu">NEU</span>' : ''}
+          <div class="play"><i><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></i></div></div>
+        <div class="info"><div class="band">${esc(v.band)}</div><div class="name">${esc(v.titel)}</div>
+          <div class="meta">${fmt(v.views)} Aufrufe · ${v.datum.slice(0,4)}</div></div>
+      </button>`).join('');
+    mehr.style.display = sicht >= liste.length ? 'none' : '';
+  };
+  document.querySelectorAll('.sortierung button').forEach(b => b.addEventListener('click', () => {
+    document.querySelectorAll('.sortierung button').forEach(x => x.classList.toggle('aktiv', x === b));
+    sort = b.dataset.sort; sicht = SCHRITT; zeichnen();
+  }));
+  mehr.addEventListener('click', () => { sicht += SCHRITT; zeichnen(); });
+  zeichnen();
+
+  // Player: YouTube erst nach Klick laden (youtube-nocookie)
+  const player = document.getElementById('player'), rahmen = document.getElementById('rahmen');
+  const zu = () => { player.classList.remove('offen'); rahmen.innerHTML = ''; };
+  galerie.addEventListener('click', e => {
+    const k = e.target.closest('.clip'); if (!k) return;
+    rahmen.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${k.dataset.id}?autoplay=1&rel=0" title="Musikvideo" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
+    player.classList.add('offen');
+  });
+  player.addEventListener('click', e => { if (e.target === player || e.target.classList.contains('zu')) zu(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') zu(); });
+
+  // Referenzen-Laufband (doppelt, damit es nahtlos läuft)
+  const gemischt = [...D.referenzen];  // bei jedem Seitenaufruf zufällige Reihenfolge
+  for (let i = gemischt.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [gemischt[i], gemischt[j]] = [gemischt[j], gemischt[i]]; }
+  const namen = gemischt.map(r => `<span>${esc(r.name)}</span>`).join('');
+  document.getElementById('bandband').innerHTML = namen + namen.replace(/<span>/g, '<span aria-hidden="true">');
+  document.getElementById('bandband').style.animationDuration = Math.max(60, D.referenzen.length * 4) + 's'; // ruhiges Tempo, egal wie viele Namen
+})();
+
+document.getElementById('jahr').textContent = new Date().getFullYear();
+// Startvideo: nur wenn keine reduzierte Bewegung / kein Datensparmodus; Handy bekommt 720p
+(function(){ const v=document.getElementById('heroVideo'); if(!v) return;
+  const ruhig=matchMedia('(prefers-reduced-motion: reduce)').matches, sparen=navigator.connection&&navigator.connection.saveData;
+  if(ruhig||sparen) return;
+  v.src = innerWidth < 900 ? 'video/start-720.mp4' : 'video/start-1080.mp4';
+  v.addEventListener('playing', () => v.classList.add('laeuft'), {once:true});
+  v.play().catch(()=>{});
+})();
+(function(){ const j = document.getElementById('jahre'), n = new Date().getFullYear() - 1997; j.dataset.ziel = n; j.textContent = n; })();
+// Einblenden + Zähler beim Scrollen
+const zaehlen = el => {
+  const ziel = +el.dataset.ziel, dauer = 1400, start = performance.now();
+  const schritt = t => { const p = Math.min((t - start) / dauer, 1);
+    el.textContent = Math.round(ziel * (1 - Math.pow(1 - p, 3))).toLocaleString('de-DE');
+    if (p < 1) requestAnimationFrame(schritt); };
+  requestAnimationFrame(schritt);
+};
+const ruhig = matchMedia('(prefers-reduced-motion: reduce)').matches;
+if ('IntersectionObserver' in window && !ruhig) {
+  const io = new IntersectionObserver(eintraege => eintraege.forEach(e => {
+    if (!e.isIntersecting) return;
+    e.target.classList.add('sichtbar');
+    const b = e.target.querySelector('[data-ziel]'); if (b) zaehlen(b);
+    io.unobserve(e.target);
+  }), {threshold: .15});
+  document.querySelectorAll('.einblenden').forEach(el => io.observe(el));
+} else {
+  document.querySelectorAll('.einblenden').forEach(el => el.classList.add('sichtbar'));
+}
+</script>
+</body>
+</html>
