@@ -478,7 +478,6 @@ document.write('<script src="daten/alben.js?v=' + Math.floor(Date.now() / 60000)
   const raster = document.getElementById('alben-raster'); if (!raster || !QUELLE.alben.length) return;
   let A = QUELLE.alben;
   document.querySelectorAll('#alben-reiter button').forEach(b => {
-    b.textContent += ' (' + QUELLE[b.dataset.art].length + ')';
     b.addEventListener('click', () => {
       document.querySelectorAll('#alben-reiter button').forEach(x => x.classList.toggle('aktiv', x === b));
       A = QUELLE[b.dataset.art]; sicht = SCHRITT; zeichnen();
