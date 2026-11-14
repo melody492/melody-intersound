@@ -1155,15 +1155,6 @@ window.MI_SINGLES = [
   "spotify": "https://open.spotify.com/search/Die%20jungen%20Pseirer%20Haupsoch%20Viech%20hot%20er"
  },
  {
-  "band": "Z-Pur",
-  "titel": "Die Klöpflsinger - S' mag net hell werd'n - Der vierte 3 König - Mander wos isch los mit enk (EP)",
-  "datum": "2019-11-24",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1488080145.jpg",
-  "apple": "https://music.apple.com/at/album/die-kl%C3%B6pflsinger-s-mag-net-hell-werdn-der-vierte-3/1488080145",
-  "spotify": "https://open.spotify.com/search/Zpur%20-%20Die%20Zillertaler%20Musikanten%20Die%20Kl%C3%B6pflsinger%20-%20S%27%20mag%20net%20hell%20werd%27n%20-%20Der%20vierte%203%20K%C3%B6nig%20-%20Mander%20wos%20isch%20los%20mit%20enk%20%28EP%29"
- },
- {
   "band": "JuHe aus Tirol",
   "titel": "Mir gian ins Gasthaus",
   "datum": "2019-11-12",
