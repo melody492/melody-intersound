@@ -89,7 +89,7 @@ section{padding:96px 0}
 /* Erfolge */
 .erfolge{position:relative;color:var(--weiss);background:linear-gradient(rgba(10,10,10,.82),rgba(10,10,10,.82)),url(bilder/mikrofon.jpg) center/cover no-repeat fixed}
 .erfolge .titel h2{color:var(--weiss)}
-.preise{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.preise{display:grid;grid-template-columns:repeat(2,1fr);gap:26px;max-width:960px;margin:0 auto}
 .preis{position:relative;text-align:center;padding:44px 26px 38px;border-radius:20px;
   background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));
   border:1px solid rgba(232,196,104,.28);box-shadow:0 20px 50px rgba(0,0,0,.45);overflow:hidden}
@@ -378,6 +378,12 @@ footer img{height:30px;width:auto;margin:0 auto 14px}
         <h3>Jahre Tonstudio</h3>
         <p>Musikproduktion aus Tirol · seit 1997</p>
       </div>
+      <div class="preis einblenden">
+        <div class="bild"><img src="bilder/preise/titel.webp" alt="Studio-Tonbandspule" loading="lazy"></div>
+        <b data-ziel="1650" data-nach="+">1.650+</b>
+        <h3>Produzierte Titel</h3>
+        <p>Alben und Singles seit 1997</p>
+      </div>
     </div>
   </div>
 </section>
@@ -542,7 +548,7 @@ document.getElementById('jahr').textContent = new Date().getFullYear();
 const zaehlen = el => {
   const ziel = +el.dataset.ziel, dauer = 1400, start = performance.now();
   const schritt = t => { const p = Math.min((t - start) / dauer, 1);
-    el.textContent = Math.round(ziel * (1 - Math.pow(1 - p, 3))).toLocaleString('de-DE');
+    el.textContent = Math.round(ziel * (1 - Math.pow(1 - p, 3))).toLocaleString('de-DE') + (el.dataset.nach || '');
     if (p < 1) requestAnimationFrame(schritt); };
   requestAnimationFrame(schritt);
 };
