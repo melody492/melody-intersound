@@ -838,15 +838,6 @@ window.MI_ALBEN = [
   "spotify": "https://open.spotify.com/search/Zillertaler%20Mander%20Auf%20Die%20Dauer%20Hilft%20Nur%20Power"
  },
  {
-  "band": "Z3 – Die drei Zillertaler",
-  "titel": "A Schneidige Musig",
-  "datum": "2010-07-22",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/385274906.jpg",
-  "apple": "https://music.apple.com/at/album/a-schneidige-musig/385274906",
-  "spotify": "https://open.spotify.com/search/Z3%20Die%20Drei%20Zillertaler%20A%20Schneidige%20Musig"
- },
- {
   "band": "Die Grubertaler",
   "titel": "Wenn, dann jetzt",
   "datum": "2010-04-23",
@@ -881,15 +872,6 @@ window.MI_ALBEN = [
   "bild": "bilder/alben/324862626.jpg",
   "apple": "https://music.apple.com/at/album/so-a-kloanes-st%C3%BCckerl-hoamat/324862626",
   "spotify": "https://open.spotify.com/search/Die%20Hegl%20So%20a%20kloanes%20St%C3%BCckerl%20Hoamat"
- },
- {
-  "band": "Z3 – Die drei Zillertaler",
-  "titel": "Wenn a Zillertaler Musig macht",
-  "datum": "2009-06-10",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/321625904.jpg",
-  "apple": "https://music.apple.com/at/album/wenn-a-zillertaler-musig-macht/321625904",
-  "spotify": "https://open.spotify.com/search/Z3%20-%20Die%20Drei%20Zillertaler%20Wenn%20a%20Zillertaler%20Musig%20macht"
  },
  {
   "band": "Zillertaler Haderlumpen",
