@@ -1119,15 +1119,6 @@ window.MI_SINGLES = [
   "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Ich%20pack%20f%C3%BCr%20dich%20mein%20Herzschlag%20ein"
  },
  {
-  "band": "Marco Spiegl",
-  "titel": "Den ersten Christbaum mit dir allein",
-  "datum": "2020-11-27",
-  "label": "Melody Intersound",
-  "bild": "bilder/alben/1542298302.jpg",
-  "apple": "https://music.apple.com/at/album/den-ersten-christbaum-mit-dir-allein-single/1542298302",
-  "spotify": "https://open.spotify.com/search/Marco%20Spiegl%20Den%20ersten%20Christbaum%20mit%20dir%20allein"
- },
- {
   "band": "ZaitLos",
   "titel": "A Fels in der Brandung",
   "datum": "2020-11-13",
