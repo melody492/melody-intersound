@@ -352,15 +352,6 @@ window.MI_ALBEN = [
   "spotify": "https://open.spotify.com/search/Zillachtol%20G%27song%20Aus%E2%80%99m%20Leben"
  },
  {
-  "band": "Läts Fetz",
-  "titel": "Amore mit Motore",
-  "datum": "2020-08-14",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1525566890.jpg",
-  "apple": "https://music.apple.com/at/album/amore-mit-motore/1525566890",
-  "spotify": "https://open.spotify.com/search/L%C3%A4ts%20Fetz%20Amore%20mit%20Motore"
- },
- {
   "band": "Die Jungen Zellberger",
   "titel": "Vorhang auf, Bühne frei - 25 Jahre",
   "datum": "2020-06-23",
@@ -442,15 +433,6 @@ window.MI_ALBEN = [
   "spotify": "https://open.spotify.com/search/Zillertal%20Power%20Heit%20da%20will%20is%20wissen"
  },
  {
-  "band": "Läts Fetz",
-  "titel": "Höllawind, mei Alte spinnt",
-  "datum": "2019-01-14",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1449248265.jpg",
-  "apple": "https://music.apple.com/at/album/h%C3%B6llawind-mei-alte-spinnt/1449248265",
-  "spotify": "https://open.spotify.com/search/L%C3%A4ts%20Fetz%20H%C3%B6llawind%2C%20mei%20Alte%20spinnt"
- },
- {
   "band": "Die Grubertaler",
   "titel": "Die Grubertaler - Das Beste aus 10 Jahren Party, Vol. X",
   "datum": "2018-12-28",
@@ -503,15 +485,6 @@ window.MI_ALBEN = [
   "bild": "bilder/alben/1347196059.jpg",
   "apple": "https://music.apple.com/at/album/musiziert-weard-allweil-gearn/1347196059",
   "spotify": "https://open.spotify.com/search/Zillachtol%20G%27song%20Musiziert%20weard%20allweil%20gearn"
- },
- {
-  "band": "Läts Fetz",
-  "titel": "Machos sein out, Tiroler sein in",
-  "datum": "2018-01-02",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1331036784.jpg",
-  "apple": "https://music.apple.com/at/album/machos-sein-out-tiroler-sein-in/1331036784",
-  "spotify": "https://open.spotify.com/search/L%C3%A4ts%20Fetz%20Machos%20sein%20out%2C%20Tiroler%20sein%20in"
  }
 ];
 window.MI_SINGLES = [
@@ -1146,15 +1119,6 @@ window.MI_SINGLES = [
   "spotify": "https://open.spotify.com/search/Kasermandl%20Duo%20M%C3%A4dl%20Kannst%20Du%20Knedl"
  },
  {
-  "band": "Läts Fetz",
-  "titel": "Albert Weinstein",
-  "datum": "2020-08-21",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1604491188.jpg",
-  "apple": "https://music.apple.com/at/album/albert-weinstein-single/1604491188",
-  "spotify": "https://open.spotify.com/search/L%C3%A4ts%20Fetz%20Albert%20Weinstein"
- },
- {
   "band": "Tiroler Partymander",
   "titel": "Wir starten durch",
   "datum": "2020-07-31",
@@ -1216,15 +1180,6 @@ window.MI_SINGLES = [
   "bild": "bilder/alben/1460670777.jpg",
   "apple": "https://music.apple.com/at/album/nur-a-held-geht-aufs-feld-single/1460670777",
   "spotify": "https://open.spotify.com/search/Kasermandl%20Duo%20Nur%20a%20Held%20geht%20aufs%20Feld"
- },
- {
-  "band": "Läts Fetz",
-  "titel": "Der hellste Stern am Himmel",
-  "datum": "2018-11-30",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1445116098.jpg",
-  "apple": "https://music.apple.com/at/album/der-hellste-stern-am-himmel-single/1445116098",
-  "spotify": "https://open.spotify.com/search/L%C3%A4ts%20Fetz%20Der%20hellste%20Stern%20am%20Himmel"
  },
  {
   "band": "Z-Pur",
