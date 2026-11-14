@@ -47,10 +47,15 @@ nav a:hover{color:var(--weiss)}
 .hero .wrap{padding-bottom:9vh}
 .hero .seit{display:inline-block;font-size:.8rem;letter-spacing:.25em;text-transform:uppercase;color:#e9c9c9;border-left:3px solid var(--rot-hell);padding-left:12px;margin-bottom:18px}
 .hero h1{font-size:clamp(2rem,5.2vw,3.6rem);line-height:1.12;font-weight:700;max-width:16ch}
-.hero h1 span{color:#ff5a5a}
 .hero p{max-width:60ch;margin-top:20px;font-size:1.08rem;color:#eee}
 .knopf{display:inline-block;margin-top:30px;background:var(--rot);color:#fff;padding:14px 28px;border-radius:40px;font-weight:600;letter-spacing:.03em;transition:background .2s,transform .2s}
 .knopf:hover{background:var(--rot-hell);transform:translateY(-2px)}
+.hero .leit{font-size:1.18rem;color:#fff;margin-top:22px}
+.hero .leit strong{color:#ffd9a0;font-weight:650}
+.hero h1 span{background:linear-gradient(180deg,#fff6cf,#f0cf73 45%,#c99a36);-webkit-background-clip:text;background-clip:text;color:transparent}
+.knoepfe{display:flex;gap:14px;flex-wrap:wrap}
+.knopf.zweit{background:transparent;border:1.5px solid rgba(255,255,255,.7)}
+.knopf.zweit:hover{background:rgba(255,255,255,.12)}
 
 /* Abschnitte */
 section{padding:96px 0}
@@ -257,10 +262,14 @@ footer img{height:30px;width:auto;margin:0 auto 14px}
 
 <section class="hero" id="start">
   <div class="wrap">
-    <div class="seit">Tonstudio in Tirol · seit 1997</div>
-    <h1>Herzlich Willkommen im Tonstudio <span>Melody Intersound</span></h1>
-    <p>Unsere jahrelange Erfahrung macht uns zu einem professionellen Partner in allen Fragen der Musik- und Audioproduktion. Unser Studio bietet den idealen Rahmen für professionelle Musikproduktionen. Ein Rahmen, in dem wir mit Können und Erfahrung Eurer Musik das optimale Klangbild verleihen. In allen oder einzelnen Phasen der Produktion.</p>
-    <a class="knopf" href="#kontakt">Kontakt aufnehmen</a>
+    <div class="seit">Tonstudio · Musikverlage · Musikvideos · seit 1997</div>
+    <h1>Musik, die <span>Gold</span> wert ist.</h1>
+    <p class="leit">Seit 1997 entstehen bei Melody Intersound in Weerberg Produktionen, die auf den großen Bühnen, im Radio und im Fernsehen zu Hause sind – ausgezeichnet mit <strong>34 Goldenen und 2 Platin-Schallplatten</strong> und <strong>drei Siegen beim Grand Prix der Volksmusik</strong>.</p>
+    <p>Vom ersten Arrangement über Aufnahme, Mix und Mastering bis zum fertigen Musikvideo bekommt Ihr bei uns alles aus einer Hand – und mit unseren Musikverlagen Edition Sarah und Edition Hitmix auch die Betreuung Eurer Werke, damit Eure Musik nicht nur gut klingt, sondern auch ihren Weg geht.</p>
+    <div class="knoepfe">
+      <a class="knopf" href="#kontakt">Kontakt aufnehmen</a>
+      <a class="knopf zweit" href="#musikvideos">Musikvideos ansehen</a>
+    </div>
   </div>
 </section>
 
