@@ -86,6 +86,25 @@ section{padding:96px 0}
 .saeule ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
 .saeule li{font-size:.78rem;letter-spacing:.04em;padding:6px 12px;border-radius:20px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
 
+/* Erfolge */
+.erfolge{position:relative;color:var(--weiss);background:linear-gradient(rgba(10,10,10,.82),rgba(10,10,10,.82)),url(bilder/mikrofon.jpg) center/cover no-repeat fixed}
+.erfolge .titel h2{color:var(--weiss)}
+.preise{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.preis{position:relative;text-align:center;padding:44px 26px 38px;border-radius:20px;
+  background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));
+  border:1px solid rgba(232,196,104,.28);box-shadow:0 20px 50px rgba(0,0,0,.45);overflow:hidden}
+.preis::before{content:"";position:absolute;inset:-40% -40% auto auto;width:220px;height:220px;border-radius:50%;
+  background:radial-gradient(circle,rgba(232,196,104,.18),transparent 70%)}
+.preis .bild{height:190px;display:flex;align-items:center;justify-content:center;margin-bottom:22px;position:relative}
+.preis .bild img{height:100%;width:auto;filter:drop-shadow(0 18px 26px rgba(0,0,0,.65))}
+.preis .platten{position:relative}
+.preis .platten .gold{height:100%;position:relative;z-index:2;margin-right:-70px}
+.preis .platten .platin{height:84%;order:2;margin-top:-18px}
+.preis b{display:block;font-size:clamp(4rem,8vw,6.2rem);font-weight:800;line-height:1;letter-spacing:-.02em;
+  background:linear-gradient(180deg,#fff6cf 0%,#f0cf73 40%,#b8862b 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.preis h3{margin-top:12px;font-size:1.25rem;font-weight:650;color:#fff}
+.preis p{margin-top:8px;color:#bdbdbd;font-size:.95rem}
+
 /* Musikvideos */
 .videos{background:var(--dunkel);color:#fff}
 .videos .titel h2{color:#fff}
