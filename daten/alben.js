@@ -181,15 +181,6 @@ window.MI_ALBEN = [
   "spotify": "https://open.spotify.com/search/ZaitLos%20Hand%20in%20Hand"
  },
  {
-  "band": "Volksbeat",
-  "titel": "Jetzt gehn mas an",
-  "datum": "2024-05-03",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1741995916.jpg",
-  "apple": "https://music.apple.com/at/album/jetzt-gehn-mas-an/1741995916",
-  "spotify": "https://open.spotify.com/search/Volksbeat%20Jetzt%20gehn%20mas%20an"
- },
- {
   "band": "Ligist 3",
   "titel": "Lebensgfühl",
   "datum": "2024-03-22",
@@ -233,15 +224,6 @@ window.MI_ALBEN = [
   "bild": "bilder/alben/1697244282.jpg",
   "apple": "https://music.apple.com/at/album/die-liab-zum-hoamatland/1697244282",
   "spotify": "https://open.spotify.com/search/Sonnwend%20Die%20Liab%20zum%20Hoamatland"
- },
- {
-  "band": "Volksbeat",
-  "titel": "Lausbuam sein ma",
-  "datum": "2023-03-24",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1677632853.jpg",
-  "apple": "https://music.apple.com/at/album/lausbuam-sein-ma/1677632853",
-  "spotify": "https://open.spotify.com/search/Volksbeat%20Lausbuam%20sein%20ma"
  },
  {
   "band": "Die Grubertaler",
@@ -296,15 +278,6 @@ window.MI_ALBEN = [
   "bild": "bilder/alben/1643659663.jpg",
   "apple": "https://music.apple.com/at/album/a-polka-an-jodler-f%C3%BCr-di/1643659663",
   "spotify": "https://open.spotify.com/search/Zpur%20-%20Die%20Zillertaler%20Musikanten%20A%20Polka%2C%20an%20Jodler%20f%C3%BCr%20di"
- },
- {
-  "band": "Volksbeat",
-  "titel": "Da steckt Leidenschaft dahinter",
-  "datum": "2022-04-05",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1621201032.jpg",
-  "apple": "https://music.apple.com/at/album/da-steckt-leidenschaft-dahinter/1621201032",
-  "spotify": "https://open.spotify.com/search/Volksbeat%20Da%20steckt%20Leidenschaft%20dahinter"
  },
  {
   "band": "Die Grubertaler",
@@ -894,15 +867,6 @@ window.MI_SINGLES = [
   "spotify": "https://open.spotify.com/search/Ligist%203%20A%20Jodler%20zur%20stillen%20Zeit"
  },
  {
-  "band": "Volksbeat",
-  "titel": "Zwoa Kinderaugen - Horch amol - Dann feiern wir zwei Weihnachten",
-  "datum": "2023-11-30",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1716579752.jpg",
-  "apple": "https://music.apple.com/at/album/zwoa-kinderaugen-horch-amol-dann-feiern-wir-zwei-weihnachten/1716579752",
-  "spotify": "https://open.spotify.com/search/Volksbeat%20Zwoa%20Kinderaugen%20-%20Horch%20amol%20-%20Dann%20feiern%20wir%20zwei%20Weihnachten"
- },
- {
   "band": "Die Grubertaler",
   "titel": "Keine Träne ist vergebens",
   "datum": "2023-11-24",
@@ -1065,15 +1029,6 @@ window.MI_SINGLES = [
   "spotify": "https://open.spotify.com/search/Zpur%20-%20Die%20Zillertaler%20Musikanten%20Mein%20Tirol"
  },
  {
-  "band": "Volksbeat",
-  "titel": "Tschisti Tschastii",
-  "datum": "2022-02-18",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1609663038.jpg",
-  "apple": "https://music.apple.com/at/album/tschisti-tschastii-single/1609663038",
-  "spotify": "https://open.spotify.com/search/Volksbeat%20Tschisti%20Tschastii"
- },
- {
   "band": "Romantik Express",
   "titel": "Ich küss dein Herz",
   "datum": "2022-01-07",
@@ -1081,15 +1036,6 @@ window.MI_SINGLES = [
   "bild": "bilder/alben/1600088846.jpg",
   "apple": "https://music.apple.com/at/album/ich-k%C3%BCss-dein-herz-single/1600088846",
   "spotify": "https://open.spotify.com/search/Romantik%20Express%20Ich%20k%C3%BCss%20dein%20Herz"
- },
- {
-  "band": "Volksbeat",
-  "titel": "Weihnachten mit Kinderaugen",
-  "datum": "2021-12-03",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1597344616.jpg",
-  "apple": "https://music.apple.com/at/album/weihnachten-mit-kinderaugen-single/1597344616",
-  "spotify": "https://open.spotify.com/search/Volksbeat%20Weihnachten%20mit%20Kinderaugen"
  },
  {
   "band": "Läts Fetz",
@@ -1126,15 +1072,6 @@ window.MI_SINGLES = [
   "bild": "bilder/alben/1580787914.jpg",
   "apple": "https://music.apple.com/at/album/das-alles-nimmt-uns-niemand-mehr-single/1580787914",
   "spotify": "https://open.spotify.com/search/Die%20Grubertaler%20Das%20alles%20nimmt%20uns%20niemand%20mehr"
- },
- {
-  "band": "Volksbeat",
-  "titel": "A Diandl zum Busseln",
-  "datum": "2021-07-30",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1577997014.jpg",
-  "apple": "https://music.apple.com/at/album/a-diandl-zum-busseln-single/1577997014",
-  "spotify": "https://open.spotify.com/search/Volksbeat%20A%20Diandl%20zum%20Busseln"
  },
  {
   "band": "Z-Pur",
