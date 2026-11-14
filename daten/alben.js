@@ -813,15 +813,6 @@ window.MI_SINGLES = [
   "spotify": "https://open.spotify.com/search/Kasermandl%20Duo%20Am%20Gipfel%20ist%20die%20H%C3%B6lle%20los"
  },
  {
-  "band": "Volksbeat",
-  "titel": "Bye Bye Belinda",
-  "datum": "2024-07-19",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1756786248.jpg",
-  "apple": "https://music.apple.com/at/album/bye-bye-belinda-single/1756786248",
-  "spotify": "https://open.spotify.com/search/Volksbeat%20Bye%20Bye%20Belinda"
- },
- {
   "band": "Z-Pur",
   "titel": "I woaß für uns a Platzerl",
   "datum": "2024-06-14",
