@@ -919,15 +919,6 @@ window.MI_ALBEN = [
   "spotify": "https://open.spotify.com/search/Zillertaler%20Mander%20Schneidig%20g%27jodelt%2C%20fetzig%20g%27spielt"
  },
  {
-  "band": "Zillertaler Mander",
-  "titel": "Hereinspaziert Ins Zillertal",
-  "datum": "2008-03-03",
-  "label": "Berton",
-  "bild": "bilder/alben/276740930.jpg",
-  "apple": "https://music.apple.com/at/album/hereinspaziert-ins-zillertal/276740930",
-  "spotify": "https://open.spotify.com/search/Zillertaler%20Mander%20Hereinspaziert%20Ins%20Zillertal"
- },
- {
   "band": "Zillertaler Haderlumpen",
   "titel": "Die Grand Prix Sieger 2007...wie sie früher waren",
   "datum": "2008-02-12",
