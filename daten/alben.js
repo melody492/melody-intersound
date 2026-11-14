@@ -552,15 +552,6 @@ window.MI_SINGLES = [
   "spotify": "https://open.spotify.com/search/Volksbeat%20I%20sp%C3%BCr%20unter%E2%80%99m%20Weihnachtsbaum"
  },
  {
-  "band": "Z-Pur",
-  "titel": "Mia san aus Österreich",
-  "datum": "2026-10-23",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/6823188021.jpg",
-  "apple": "https://music.apple.com/at/album/mia-san-aus-%C3%B6sterreich-single/6823188021",
-  "spotify": "https://open.spotify.com/search/Zpur%20-%20Die%20Zillertaler%20Musikanten%20Mia%20san%20aus%20%C3%96sterreich"
- },
- {
   "band": "Volksbeat",
   "titel": "Mähdrescher",
   "datum": "2026-09-29",
