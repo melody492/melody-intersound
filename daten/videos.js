@@ -542,9 +542,6 @@ window.MI_DATEN = {
    "name": "JuHe aus Tirol"
   },
   {
-   "name": "Die Jungen Hegl"
-  },
-  {
    "name": "Die Jungen Neustifter"
   },
   {
