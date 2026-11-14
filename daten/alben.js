@@ -561,15 +561,6 @@ window.MI_SINGLES = [
   "spotify": "https://open.spotify.com/search/Volksbeat%20M%C3%A4hdrescher"
  },
  {
-  "band": "Z-Pur",
-  "titel": "4 lustige Zillertaler",
-  "datum": "2026-08-23",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/6800384418.jpg",
-  "apple": "https://music.apple.com/at/album/4-lustige-zillertaler-single/6800384418",
-  "spotify": "https://open.spotify.com/search/Zpur%20-%20Die%20Zillertaler%20Musikanten%204%20lustige%20Zillertaler"
- },
- {
   "band": "Die Grubertaler",
   "titel": "Auf der Vogelwiese",
   "datum": "2026-08-07",
@@ -633,15 +624,6 @@ window.MI_SINGLES = [
   "spotify": "https://open.spotify.com/search/Kasermandl%20Duo%20Leben%20Lieben%20Lachen"
  },
  {
-  "band": "Z-Pur",
-  "titel": "Her mit meine Hennen (Goggola)",
-  "datum": "2026-04-01",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1887944008.jpg",
-  "apple": "https://music.apple.com/at/album/her-mit-meine-hennen-goggola-single/1887944008",
-  "spotify": "https://open.spotify.com/search/Zpur%20-%20Die%20Zillertaler%20Musikanten%20Her%20mit%20meine%20Hennen%20%28Goggola%29"
- },
- {
   "band": "Ligist 3",
   "titel": "Mei Motorsog",
   "datum": "2026-03-13",
@@ -667,15 +649,6 @@ window.MI_SINGLES = [
   "bild": "bilder/alben/1874153758.jpg",
   "apple": "https://music.apple.com/at/album/steck-dir-a-edelwei%C3%9F-ins-dekollet%C3%A9-single/1874153758",
   "spotify": "https://open.spotify.com/search/Volksbeat%20Steck%20dir%20a%20Edelwei%C3%9F%20ins%20Dekollet%C3%A9"
- },
- {
-  "band": "Z-Pur",
-  "titel": "I liab mei Hoamatland",
-  "datum": "2026-02-06",
-  "label": "Tyrolis",
-  "bild": "bilder/alben/1872492096.jpg",
-  "apple": "https://music.apple.com/at/album/i-liab-mei-hoamatland-single/1872492096",
-  "spotify": "https://open.spotify.com/search/Zpur%20-%20Die%20Zillertaler%20Musikanten%20I%20liab%20mei%20Hoamatland"
  },
  {
   "band": "Läts Fetz",
