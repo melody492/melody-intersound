@@ -125,6 +125,25 @@ section{padding:96px 0}
 .player iframe{width:100%;height:100%;border:0}
 .player .zu{position:absolute;top:14px;right:18px;background:none;border:0;color:#fff;font-size:2.2rem;cursor:pointer;line-height:1}
 
+/* Alben */
+.alben{background:var(--hell)}
+.alben-raster{display:grid;grid-template-columns:repeat(5,1fr);gap:22px;grid-auto-flow:dense}
+.album{background:var(--weiss);border-radius:12px;overflow:hidden;box-shadow:0 2px 14px rgba(0,0,0,.06);transition:transform .25s,box-shadow .25s;display:flex;flex-direction:column}
+.album:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.14)}
+.album .cover{position:relative;aspect-ratio:1;background:#ddd;display:block}
+.album .cover img{width:100%;height:100%;object-fit:cover}
+.album .neu{position:absolute;top:10px;left:10px;background:var(--rot-hell);color:#fff;font-size:.7rem;font-weight:700;letter-spacing:.12em;padding:5px 10px;border-radius:20px;box-shadow:0 4px 12px rgba(0,0,0,.35)}
+.album .info{padding:12px 14px 14px;display:flex;flex-direction:column;gap:3px;flex:1}
+.album .band{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--rot)}
+.album .name{font-weight:650;color:var(--dunkel);line-height:1.3;font-size:.95rem}
+.album .meta{font-size:.78rem;color:var(--grau)}
+.album .hoeren{display:flex;gap:12px;margin-top:auto;padding-top:8px;font-size:.8rem;font-weight:600}
+.album .hoeren a{color:var(--rot)}
+.alben-raster .album:first-child{grid-column:span 2;grid-row:span 2}
+.alben-raster .album:first-child .name{font-size:1.3rem}
+.alben .mehr{color:var(--dunkel);border-color:#bbb}
+.alben .mehr:hover{color:#fff}
+
 /* Referenzen */
 .referenzen{background:#0d0d0d;padding:54px 0 60px;overflow:hidden}
 .referenzen h2{text-align:center;color:#ddd;font-size:1rem;letter-spacing:.25em;text-transform:uppercase;font-weight:500;margin-bottom:28px}
@@ -192,6 +211,7 @@ footer img{height:30px;width:auto;margin:0 auto 14px}
   .kontakt-raster{grid-template-columns:1fr}
   .erfolge{background-attachment:scroll}
   .galerie{grid-template-columns:repeat(2,1fr);gap:14px}
+  .alben-raster{grid-template-columns:repeat(3,1fr);gap:14px}
 }
 @media (max-width:720px){
   .wrap{padding:0 16px}
@@ -203,6 +223,7 @@ footer img{height:30px;width:auto;margin:0 auto 14px}
   section{padding:72px 0}
   .hero{min-height:88vh}
   .galerie{grid-template-columns:1fr}
+  .alben-raster{grid-template-columns:repeat(2,1fr)}
   .galerie.gross .clip:first-child{grid-column:auto;grid-row:auto}
   .galerie.gross .clip:first-child .bildrahmen{aspect-ratio:16/9;flex:none}
   .kennzahl{gap:30px}
@@ -223,6 +244,7 @@ footer img{height:30px;width:auto;margin:0 auto 14px}
     <nav onclick="this.classList.remove('offen')">
       <a href="#leistungen">Leistungen</a>
       <a href="#musikvideos">Musikvideos</a>
+      <a href="#alben">Alben</a>
       <a href="#erfolge">Erfolge</a>
       <a href="#verlag">Verlage</a>
       <a href="#studio">Das Studio</a>
@@ -278,6 +300,14 @@ footer img{height:30px;width:auto;margin:0 auto 14px}
   <h2>Referenzen</h2>
   <div class="band-band" id="bandband"></div>
 </div>
+
+<section class="alben" id="alben">
+  <div class="wrap">
+    <div class="titel einblenden"><h2>Neuerscheinungen aus unserem Studio</h2><p>Alben, die bei Melody Intersound produziert wurden</p></div>
+    <div class="alben-raster" id="alben-raster"></div>
+    <button type="button" class="mehr" id="alben-mehr">Weitere Alben anzeigen</button>
+  </div>
+</section>
 
 <div class="player" id="player" role="dialog" aria-modal="true" aria-label="Musikvideo">
   <button class="zu" type="button" aria-label="Schließen">×</button>
@@ -381,7 +411,8 @@ footer img{height:30px;width:auto;margin:0 auto 14px}
 </footer>
 
 <script>/* Galerie-Daten immer frisch laden (kein Browser-Zwischenspeicher) */
-document.write('<script src="daten/videos.js?v=' + Math.floor(Date.now() / 60000) + '"><\/script>');</script>
+document.write('<script src="daten/videos.js?v=' + Math.floor(Date.now() / 60000) + '"><\/script>');
+document.write('<script src="daten/alben.js?v=' + Math.floor(Date.now() / 60000) + '"><\/script>');</script>
 <script>
 // ---- Musikvideo-Galerie + Referenzen ----
 (function(){
@@ -433,6 +464,26 @@ document.write('<script src="daten/videos.js?v=' + Math.floor(Date.now() / 60000
   const namen = gemischt.map(r => `<span>${esc(r.name)}</span>`).join('');
   document.getElementById('bandband').innerHTML = namen + namen.replace(/<span>/g, '<span aria-hidden="true">');
   document.getElementById('bandband').style.animationDuration = Math.max(60, D.referenzen.length * 4) + 's'; // ruhiges Tempo, egal wie viele Namen
+})();
+
+// ---- Alben / Neuerscheinungen ----
+(function(){
+  const A = window.MI_ALBEN; const raster = document.getElementById('alben-raster'); if (!A || !raster) return;
+  const mehr = document.getElementById('alben-mehr'); const SCHRITT = 10; let sicht = SCHRITT;
+  const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const zeichnen = () => {
+    raster.innerHTML = A.slice(0, sicht).map((a, i) => `
+      <article class="album">
+        <a class="cover" href="${a.apple}" target="_blank" rel="noopener" aria-label="${esc(a.band)} – ${esc(a.titel)} anhören">
+          <img src="${a.bild}" alt="Cover ${esc(a.titel)}" loading="lazy">${i === 0 ? '<span class="neu">NEU</span>' : ''}</a>
+        <div class="info"><div class="band">${esc(a.band)}</div><div class="name">${esc(a.titel)}</div>
+          <div class="meta">${a.datum.slice(0,4)} · ${esc(a.label)}</div>
+          <div class="hoeren"><a href="${a.spotify}" target="_blank" rel="noopener">Spotify</a><a href="${a.apple}" target="_blank" rel="noopener">Apple Music</a></div></div>
+      </article>`).join('');
+    mehr.style.display = sicht >= A.length ? 'none' : '';
+  };
+  mehr.addEventListener('click', () => { sicht += SCHRITT; zeichnen(); });
+  zeichnen();
 })();
 
 document.getElementById('jahr').textContent = new Date().getFullYear();
