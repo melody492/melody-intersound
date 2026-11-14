@@ -142,6 +142,8 @@ section{padding:96px 0}
 .alben-raster .album:first-child{grid-column:span 2;grid-row:span 2}
 .alben-raster .album:first-child .name{font-size:1.3rem}
 .alben .mehr{color:var(--dunkel);border-color:#bbb}
+.alben .reiter button{color:var(--dunkel);border-color:#bbb}
+.alben .reiter button.aktiv{color:#fff}
 .alben .mehr:hover{color:#fff}
 
 /* Referenzen */
@@ -303,9 +305,13 @@ footer img{height:30px;width:auto;margin:0 auto 14px}
 
 <section class="alben" id="alben">
   <div class="wrap">
-    <div class="titel einblenden"><h2>Neuerscheinungen aus unserem Studio</h2><p>Alben, die bei Melody Intersound produziert wurden</p></div>
+    <div class="titel einblenden"><h2>Neuerscheinungen aus unserem Studio</h2><p>Alben und Singles, produziert bei Melody Intersound</p></div>
+    <div class="sortierung reiter" id="alben-reiter">
+      <button type="button" class="aktiv" data-art="alben">Alben</button>
+      <button type="button" data-art="singles">Singles</button>
+    </div>
     <div class="alben-raster" id="alben-raster"></div>
-    <button type="button" class="mehr" id="alben-mehr">Weitere Alben anzeigen</button>
+    <button type="button" class="mehr" id="alben-mehr">Weitere anzeigen</button>
   </div>
 </section>
 
@@ -468,7 +474,16 @@ document.write('<script src="daten/alben.js?v=' + Math.floor(Date.now() / 60000)
 
 // ---- Alben / Neuerscheinungen ----
 (function(){
-  const A = window.MI_ALBEN; const raster = document.getElementById('alben-raster'); if (!A || !raster) return;
+  const QUELLE = {alben: window.MI_ALBEN || [], singles: window.MI_SINGLES || []};
+  const raster = document.getElementById('alben-raster'); if (!raster || !QUELLE.alben.length) return;
+  let A = QUELLE.alben;
+  document.querySelectorAll('#alben-reiter button').forEach(b => {
+    b.textContent += ' (' + QUELLE[b.dataset.art].length + ')';
+    b.addEventListener('click', () => {
+      document.querySelectorAll('#alben-reiter button').forEach(x => x.classList.toggle('aktiv', x === b));
+      A = QUELLE[b.dataset.art]; sicht = SCHRITT; zeichnen();
+    });
+  });
   const mehr = document.getElementById('alben-mehr'); const SCHRITT = 10; let sicht = SCHRITT;
   const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   const zeichnen = () => {
