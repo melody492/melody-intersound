@@ -613,9 +613,6 @@ window.MI_DATEN = {
    "name": "Michaela B."
   },
   {
-   "name": "Michaela Loferer"
-  },
-  {
    "name": "Original Zillertaler"
   },
   {
