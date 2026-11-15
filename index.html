@@ -56,7 +56,8 @@ nav a:hover{color:var(--weiss)}
 .hero .leit{font-size:1.18rem;color:#fff;margin-top:22px}
 .hero .leit strong{color:#ffd9a0;font-weight:650}
 .hero h1 span{background:linear-gradient(180deg,#fff6cf,#f0cf73 45%,#c99a36);-webkit-background-clip:text;background-clip:text;color:transparent}
-.knoepfe{display:flex;gap:14px;flex-wrap:wrap}
+.knoepfe{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+.knoepfe .knopf{margin-top:0}
 .knopf.zweit{background:transparent;border:1.5px solid rgba(255,255,255,.7)}
 .knopf.zweit:hover{background:rgba(255,255,255,.12)}
 
@@ -254,6 +255,8 @@ footer img{height:30px;width:auto;margin:0 auto 14px}
   .alben-raster{grid-template-columns:repeat(3,1fr);gap:14px}
 }
 @media (max-width:720px){
+  .knoepfe{flex-direction:column;align-items:stretch;gap:12px}
+  .knoepfe .knopf{text-align:center}
   .hero{background:linear-gradient(180deg,rgba(8,8,8,.55) 0%,rgba(8,8,8,.78) 35%,rgba(8,8,8,.9) 100%),url(bilder/studio.jpg) center/cover no-repeat}
   .wrap{padding:0 16px}
   .menu-btn{display:block}
@@ -304,6 +307,7 @@ footer img{height:30px;width:auto;margin:0 auto 14px}
     <p>Vom ersten Arrangement über Aufnahme, Mix und Mastering bis zum fertigen Musikvideo bekommt Ihr bei uns alles aus einer Hand – und mit unseren Musikverlagen Edition Sarah und Edition Hitmix auch die Betreuung Eurer Werke, damit Eure Musik nicht nur gut klingt, sondern auch ihren Weg geht.</p>
     <div class="knoepfe">
       <a class="knopf" href="#kontakt">Kontakt aufnehmen</a>
+      <a class="knopf zweit" href="#alben">Produktionen anhören</a>
       <a class="knopf zweit" href="#musikvideos">Musikvideos ansehen</a>
     </div>
   </div>
