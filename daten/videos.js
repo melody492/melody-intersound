@@ -1,14 +1,14 @@
 // automatisch erzeugt von galerie_aktualisieren.py – nicht von Hand bearbeiten
 window.MI_DATEN = {
  "stand": "16.11.2026",
- "gesamt": 6614867,
+ "gesamt": 6614889,
  "anzahl": 57,
  "videos": [
   {
    "id": "LblGpGo5hYs",
    "band": "Läts Fetz",
    "titel": "Scho wieder Höllawind",
-   "views": 3854,
+   "views": 3858,
    "datum": "2026-11-13",
    "bild": "bilder/videos/LblGpGo5hYs.jpg"
   },
@@ -16,7 +16,7 @@ window.MI_DATEN = {
    "id": "qqWIwBqvT4k",
    "band": "Zellberg Duo mit Doris",
    "titel": "Auf der Ofenbank",
-   "views": 9403,
+   "views": 9406,
    "datum": "2026-11-10",
    "bild": "bilder/videos/qqWIwBqvT4k.jpg"
   },
@@ -24,7 +24,7 @@ window.MI_DATEN = {
    "id": "IavQY7QjuBs",
    "band": "Volksbeat",
    "titel": "Mähdrescher",
-   "views": 13105,
+   "views": 13107,
    "datum": "2026-09-29",
    "bild": "bilder/videos/IavQY7QjuBs.jpg"
   },
@@ -136,7 +136,7 @@ window.MI_DATEN = {
    "id": "2cVRpkAKoBY",
    "band": "JuHe",
    "titel": "A flotter Gruass zur stillen Zeit",
-   "views": 87902,
+   "views": 87898,
    "datum": "2025-12-07",
    "bild": "bilder/videos/2cVRpkAKoBY.jpg"
   },
@@ -144,7 +144,7 @@ window.MI_DATEN = {
    "id": "IJJAQwKBJg4",
    "band": "JuHe",
    "titel": "Herzig’s Diandl mein",
-   "views": 16261,
+   "views": 16260,
    "datum": "2025-10-14",
    "bild": "bilder/videos/IJJAQwKBJg4.jpg"
   },
@@ -224,7 +224,7 @@ window.MI_DATEN = {
    "id": "Qwc6GepS9HI",
    "band": "Zillertal Power",
    "titel": "Wenn die Berge nicht mehr schweigen",
-   "views": 105987,
+   "views": 105988,
    "datum": "2024-08-31",
    "bild": "bilder/videos/Qwc6GepS9HI.jpg"
   },
@@ -384,7 +384,7 @@ window.MI_DATEN = {
    "id": "ekS_cw4Ubgg",
    "band": "Halodris",
    "titel": "Die alten Zeiten",
-   "views": 621971,
+   "views": 621989,
    "datum": "2022-07-19",
    "bild": "bilder/videos/ekS_cw4Ubgg.jpg"
   },
@@ -448,7 +448,7 @@ window.MI_DATEN = {
    "id": "RZVbIXJ4xOY",
    "band": "ZaitLos",
    "titel": "A Fels in der Brandung",
-   "views": 234174,
+   "views": 234173,
    "datum": "2020-10-31",
    "bild": "bilder/videos/RZVbIXJ4xOY.jpg"
   },
