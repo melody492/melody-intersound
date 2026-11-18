@@ -41,6 +41,15 @@ nav a{color:#ddd;font-size:.92rem;letter-spacing:.04em;margin-left:26px;transiti
 nav a:hover{color:var(--weiss)}
 .menu-btn{display:none;background:none;border:0;color:#fff;font-size:1.6rem;cursor:pointer}
 
+
+/* Startvideo Drohnenflug (18.11.2026) */
+.hero{overflow:hidden}
+.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(8,8,8,.85) 0%,rgba(8,8,8,.66) 45%,rgba(8,8,8,.3) 80%,rgba(8,8,8,.2) 100%),linear-gradient(180deg,rgba(0,0,0,.3) 0%,rgba(0,0,0,.15) 45%,rgba(0,0,0,.8) 100%)}
+.hero .wrap{position:relative;z-index:2}
+@media (max-width:720px){.hero::before{background:linear-gradient(180deg,rgba(8,8,8,.5) 0%,rgba(8,8,8,.72) 35%,rgba(8,8,8,.88) 100%)}}
+@media (prefers-reduced-motion:reduce){.hero-video{display:none}.hero::before{display:none}}
+
 /* Startbild */
 .hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;color:var(--weiss);
   background:linear-gradient(90deg,rgba(8,8,8,.88) 0%,rgba(8,8,8,.72) 45%,rgba(8,8,8,.35) 80%,rgba(8,8,8,.25) 100%),linear-gradient(180deg,rgba(0,0,0,.25) 0%,rgba(0,0,0,.2) 45%,rgba(0,0,0,.8) 100%),url(bilder/studio.jpg) center/cover no-repeat}
@@ -300,6 +309,10 @@ footer img{height:30px;width:auto;margin:0 auto 14px}
 </header>
 
 <section class="hero" id="start">
+  <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="video/drohne-poster.jpg" aria-hidden="true">
+    <source src="video/drohne-720.mp4" type="video/mp4" media="(max-width:720px)">
+    <source src="video/drohne-1080.mp4" type="video/mp4">
+  </video>
   <div class="wrap">
     <div class="seit">Tonstudio · Musikverlage · Musikvideos · seit 1997</div>
     <h1>Musik, die <span>Gold</span> wert ist.</h1>
