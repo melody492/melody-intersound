@@ -1,7 +1,7 @@
 // automatisch erzeugt von galerie_aktualisieren.py – nicht von Hand bearbeiten
 window.MI_DATEN = {
  "stand": "19.11.2026",
- "gesamt": 6628265,
+ "gesamt": 6628256,
  "anzahl": 57,
  "videos": [
   {
@@ -32,7 +32,7 @@ window.MI_DATEN = {
    "id": "rZynzRAUlUw",
    "band": "Z-Pur",
    "titel": "4 lustige Zillertaler",
-   "views": 49439,
+   "views": 49442,
    "datum": "2026-08-23",
    "bild": "bilder/videos/rZynzRAUlUw.jpg"
   },
@@ -48,7 +48,7 @@ window.MI_DATEN = {
    "id": "QoCQdyzNlg0",
    "band": "Zellberg Duo mit Doris",
    "titel": "Das Brautlied",
-   "views": 60178,
+   "views": 60179,
    "datum": "2026-08-11",
    "bild": "bilder/videos/QoCQdyzNlg0.jpg"
   },
@@ -64,7 +64,7 @@ window.MI_DATEN = {
    "id": "oaEEh_7du0w",
    "band": "JuHe",
    "titel": "Boarisch g’spielt und boarisch tanzt",
-   "views": 19742,
+   "views": 19739,
    "datum": "2026-06-26",
    "bild": "bilder/videos/oaEEh_7du0w.jpg"
   },
@@ -192,7 +192,7 @@ window.MI_DATEN = {
    "id": "9uf-YwebcN4",
    "band": "JuHe",
    "titel": "Die schlechte Laune isch passé",
-   "views": 34447,
+   "views": 34446,
    "datum": "2025-03-30",
    "bild": "bilder/videos/9uf-YwebcN4.jpg"
   },
@@ -256,7 +256,7 @@ window.MI_DATEN = {
    "id": "3ihiiIgeaqU",
    "band": "Läts Fetz",
    "titel": "Drei Gasthausbriader",
-   "views": 515652,
+   "views": 515645,
    "datum": "2024-01-20",
    "bild": "bilder/videos/3ihiiIgeaqU.jpg"
   },
@@ -296,7 +296,7 @@ window.MI_DATEN = {
    "id": "_5BRBi8ouOg",
    "band": "JuHe",
    "titel": "Auf der Jodleralm",
-   "views": 190502,
+   "views": 190503,
    "datum": "2023-08-03",
    "bild": "bilder/videos/_5BRBi8ouOg.jpg"
   },
@@ -384,7 +384,7 @@ window.MI_DATEN = {
    "id": "ekS_cw4Ubgg",
    "band": "Halodris",
    "titel": "Die alten Zeiten",
-   "views": 622829,
+   "views": 622826,
    "datum": "2022-07-19",
    "bild": "bilder/videos/ekS_cw4Ubgg.jpg"
   },
