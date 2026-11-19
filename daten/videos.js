@@ -514,9 +514,6 @@ window.MI_DATEN = {
    "name": "Edlseer"
   },
   {
-   "name": "Emanuel"
-  },
-  {
    "name": "Florian Fesl"
   },
   {
