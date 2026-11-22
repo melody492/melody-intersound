@@ -1,14 +1,14 @@
 // automatisch erzeugt von galerie_aktualisieren.py – nicht von Hand bearbeiten
 window.MI_DATEN = {
- "stand": "22.11.2026",
- "gesamt": 6645612,
+ "stand": "23.11.2026",
+ "gesamt": 6646117,
  "anzahl": 57,
  "videos": [
   {
    "id": "LblGpGo5hYs",
    "band": "Läts Fetz",
    "titel": "Scho wieder Höllawind",
-   "views": 7764,
+   "views": 7853,
    "datum": "2026-11-13",
    "bild": "bilder/videos/LblGpGo5hYs.jpg"
   },
@@ -16,7 +16,7 @@ window.MI_DATEN = {
    "id": "qqWIwBqvT4k",
    "band": "Zellberg Duo mit Doris",
    "titel": "Auf der Ofenbank",
-   "views": 14412,
+   "views": 14485,
    "datum": "2026-11-10",
    "bild": "bilder/videos/qqWIwBqvT4k.jpg"
   },
@@ -24,7 +24,7 @@ window.MI_DATEN = {
    "id": "IavQY7QjuBs",
    "band": "Volksbeat",
    "titel": "Mähdrescher",
-   "views": 13632,
+   "views": 13642,
    "datum": "2026-09-29",
    "bild": "bilder/videos/IavQY7QjuBs.jpg"
   },
@@ -32,7 +32,7 @@ window.MI_DATEN = {
    "id": "rZynzRAUlUw",
    "band": "Z-Pur",
    "titel": "4 lustige Zillertaler",
-   "views": 50536,
+   "views": 50545,
    "datum": "2026-08-23",
    "bild": "bilder/videos/rZynzRAUlUw.jpg"
   },
@@ -40,7 +40,7 @@ window.MI_DATEN = {
    "id": "ZIdJzxZH91E",
    "band": "Sonnwend",
    "titel": "Fang zu leben an",
-   "views": 7182,
+   "views": 7186,
    "datum": "2026-08-21",
    "bild": "bilder/videos/ZIdJzxZH91E.jpg"
   },
@@ -56,7 +56,7 @@ window.MI_DATEN = {
    "id": "1tWC7Ana1Hg",
    "band": "Volksbeat",
    "titel": "Für Tirol und für die Berge",
-   "views": 13985,
+   "views": 13990,
    "datum": "2026-07-10",
    "bild": "bilder/videos/1tWC7Ana1Hg.jpg"
   },
@@ -72,7 +72,7 @@ window.MI_DATEN = {
    "id": "3NXlxCiEyRA",
    "band": "Läts Fetz",
    "titel": "Was der Bauer nit kennt frisst er nit",
-   "views": 90736,
+   "views": 90758,
    "datum": "2026-06-19",
    "bild": "bilder/videos/3NXlxCiEyRA.jpg"
   },
@@ -80,7 +80,7 @@ window.MI_DATEN = {
    "id": "PV-I0jY-7E8",
    "band": "ZaitLos",
    "titel": "Heit dauerts mehr",
-   "views": 30104,
+   "views": 30113,
    "datum": "2026-06-09",
    "bild": "bilder/videos/PV-I0jY-7E8.jpg"
   },
@@ -88,7 +88,7 @@ window.MI_DATEN = {
    "id": "8scjs3Lvpuo",
    "band": "Volksbeat",
    "titel": "Nur noch ein Hauch Parfum",
-   "views": 18539,
+   "views": 18542,
    "datum": "2026-05-17",
    "bild": "bilder/videos/8scjs3Lvpuo.jpg"
   },
@@ -96,7 +96,7 @@ window.MI_DATEN = {
    "id": "D6Q9R47oRFY",
    "band": "Sonnwend",
    "titel": "Das A im Alphabet",
-   "views": 19155,
+   "views": 19156,
    "datum": "2026-05-05",
    "bild": "bilder/videos/D6Q9R47oRFY.jpg"
   },
@@ -120,7 +120,7 @@ window.MI_DATEN = {
    "id": "r0jd2vcL2Z4",
    "band": "Läts Fetz",
    "titel": "Urgewalten sterben nit aus",
-   "views": 70414,
+   "views": 70425,
    "datum": "2026-01-09",
    "bild": "bilder/videos/r0jd2vcL2Z4.jpg"
   },
@@ -128,7 +128,7 @@ window.MI_DATEN = {
    "id": "761pX0el3u4",
    "band": "Volksbeat",
    "titel": "Ich wünsch mir dich unterm Weihnachtsbaum",
-   "views": 6382,
+   "views": 6384,
    "datum": "2025-12-16",
    "bild": "bilder/videos/761pX0el3u4.jpg"
   },
@@ -152,7 +152,7 @@ window.MI_DATEN = {
    "id": "SKxlZeDOTdw",
    "band": "Sonnwend",
    "titel": "Auf oan Hax",
-   "views": 13128,
+   "views": 13127,
    "datum": "2025-09-30",
    "bild": "bilder/videos/SKxlZeDOTdw.jpg"
   },
@@ -160,7 +160,7 @@ window.MI_DATEN = {
    "id": "IKNhytG-1ko",
    "band": "Halodris",
    "titel": "Des Liad vom Wolf",
-   "views": 128006,
+   "views": 128026,
    "datum": "2025-09-21",
    "bild": "bilder/videos/IKNhytG-1ko.jpg"
   },
@@ -168,7 +168,7 @@ window.MI_DATEN = {
    "id": "sj4GYxqaWJg",
    "band": "Volksbeat",
    "titel": "Wenn du meinst",
-   "views": 90882,
+   "views": 90884,
    "datum": "2025-07-18",
    "bild": "bilder/videos/sj4GYxqaWJg.jpg"
   },
@@ -184,7 +184,7 @@ window.MI_DATEN = {
    "id": "zhkqsW0d10s",
    "band": "Halodris",
    "titel": "Willst a Halodri sein",
-   "views": 301631,
+   "views": 301674,
    "datum": "2025-04-15",
    "bild": "bilder/videos/zhkqsW0d10s.jpg"
   },
@@ -192,7 +192,7 @@ window.MI_DATEN = {
    "id": "9uf-YwebcN4",
    "band": "JuHe",
    "titel": "Die schlechte Laune isch passé",
-   "views": 34617,
+   "views": 34638,
    "datum": "2025-03-30",
    "bild": "bilder/videos/9uf-YwebcN4.jpg"
   },
@@ -208,7 +208,7 @@ window.MI_DATEN = {
    "id": "nVsMQ19Ee-8",
    "band": "Romantik Express",
    "titel": "Von Herzen gern",
-   "views": 126418,
+   "views": 126419,
    "datum": "2024-11-17",
    "bild": "bilder/videos/nVsMQ19Ee-8.jpg"
   },
@@ -216,7 +216,7 @@ window.MI_DATEN = {
    "id": "Wfv76wIsk6c",
    "band": "JuHe",
    "titel": "Almleben",
-   "views": 238766,
+   "views": 238753,
    "datum": "2024-09-20",
    "bild": "bilder/videos/Wfv76wIsk6c.jpg"
   },
@@ -224,7 +224,7 @@ window.MI_DATEN = {
    "id": "Qwc6GepS9HI",
    "band": "Zillertal Power",
    "titel": "Wenn die Berge nicht mehr schweigen",
-   "views": 106564,
+   "views": 106570,
    "datum": "2024-08-31",
    "bild": "bilder/videos/Qwc6GepS9HI.jpg"
   },
@@ -240,7 +240,7 @@ window.MI_DATEN = {
    "id": "CeQypvNVuN0",
    "band": "Halodris",
    "titel": "Wenn’s Arschal brummt",
-   "views": 93490,
+   "views": 93495,
    "datum": "2024-02-23",
    "bild": "bilder/videos/CeQypvNVuN0.jpg"
   },
@@ -248,7 +248,7 @@ window.MI_DATEN = {
    "id": "9p0BTJd_8V8",
    "band": "Sonnwend",
    "titel": "Die Liab zum Hoamatland",
-   "views": 123171,
+   "views": 123172,
    "datum": "2024-01-27",
    "bild": "bilder/videos/9p0BTJd_8V8.jpg"
   },
@@ -256,7 +256,7 @@ window.MI_DATEN = {
    "id": "3ihiiIgeaqU",
    "band": "Läts Fetz",
    "titel": "Drei Gasthausbriader",
-   "views": 516187,
+   "views": 516223,
    "datum": "2024-01-20",
    "bild": "bilder/videos/3ihiiIgeaqU.jpg"
   },
@@ -264,7 +264,7 @@ window.MI_DATEN = {
    "id": "EkgVdBwDxpo",
    "band": "JuHe",
    "titel": "A Hoch auf die Faschingszeit",
-   "views": 230897,
+   "views": 230918,
    "datum": "2024-01-11",
    "bild": "bilder/videos/EkgVdBwDxpo.jpg"
   },
@@ -272,7 +272,7 @@ window.MI_DATEN = {
    "id": "69M8vlvzRYc",
    "band": "JuHe",
    "titel": "Richi’s Harmonika Medley",
-   "views": 129713,
+   "views": 129719,
    "datum": "2023-11-26",
    "bild": "bilder/videos/69M8vlvzRYc.jpg"
   },
@@ -288,7 +288,7 @@ window.MI_DATEN = {
    "id": "DLzRHPXbzE0",
    "band": "Kasermandl Duo",
    "titel": "Das ist Tirol",
-   "views": 127701,
+   "views": 127707,
    "datum": "2023-08-11",
    "bild": "bilder/videos/DLzRHPXbzE0.jpg"
   },
@@ -304,7 +304,7 @@ window.MI_DATEN = {
    "id": "ttbSpzSXU5E",
    "band": "Halodris",
    "titel": "Alte koch ma an Schweinsbraten",
-   "views": 173749,
+   "views": 173750,
    "datum": "2023-07-30",
    "bild": "bilder/videos/ttbSpzSXU5E.jpg"
   },
@@ -312,7 +312,7 @@ window.MI_DATEN = {
    "id": "u3nsucP6Hes",
    "band": "ZaitLos",
    "titel": "Dahoam",
-   "views": 58183,
+   "views": 58188,
    "datum": "2023-07-07",
    "bild": "bilder/videos/u3nsucP6Hes.jpg"
   },
@@ -328,7 +328,7 @@ window.MI_DATEN = {
    "id": "TVAiDCpqFlc",
    "band": "Romantik Express",
    "titel": "Dich nie mehr vermissen",
-   "views": 14595,
+   "views": 14594,
    "datum": "2023-01-24",
    "bild": "bilder/videos/TVAiDCpqFlc.jpg"
   },
@@ -352,7 +352,7 @@ window.MI_DATEN = {
    "id": "XDVR4pw4SIg",
    "band": "Zillertal Power",
    "titel": "Fliag Bussal fliag",
-   "views": 108456,
+   "views": 108459,
    "datum": "2022-09-16",
    "bild": "bilder/videos/XDVR4pw4SIg.jpg"
   },
@@ -384,7 +384,7 @@ window.MI_DATEN = {
    "id": "ekS_cw4Ubgg",
    "band": "Halodris",
    "titel": "Die alten Zeiten",
-   "views": 624179,
+   "views": 624264,
    "datum": "2022-07-19",
    "bild": "bilder/videos/ekS_cw4Ubgg.jpg"
   },
@@ -400,7 +400,7 @@ window.MI_DATEN = {
    "id": "dN3uIxh8itg",
    "band": "Schwarzenstoa Karl",
    "titel": "Der Königsjodler",
-   "views": 5362,
+   "views": 5363,
    "datum": "2022-05-21",
    "bild": "bilder/videos/dN3uIxh8itg.jpg"
   },
@@ -408,7 +408,7 @@ window.MI_DATEN = {
    "id": "Q98b1yO6ajg",
    "band": "Romantik Express",
    "titel": "Ich küss dein Herz",
-   "views": 31182,
+   "views": 31184,
    "datum": "2022-01-06",
    "bild": "bilder/videos/Q98b1yO6ajg.jpg"
   },
@@ -416,7 +416,7 @@ window.MI_DATEN = {
    "id": "rztOTXPjtOY",
    "band": "Tiroler Partymander",
    "titel": "Du bist die Nummer eins",
-   "views": 44801,
+   "views": 44802,
    "datum": "2021-09-27",
    "bild": "bilder/videos/rztOTXPjtOY.jpg"
   },
@@ -424,7 +424,7 @@ window.MI_DATEN = {
    "id": "_dtb0YLeQYI",
    "band": "JuHe",
    "titel": "Die Musig von friager",
-   "views": 287006,
+   "views": 287010,
    "datum": "2021-09-20",
    "bild": "bilder/videos/_dtb0YLeQYI.jpg"
   },
@@ -432,7 +432,7 @@ window.MI_DATEN = {
    "id": "c4FYOdgd_ww",
    "band": "Kasermandl Duo",
    "titel": "Mädl kannst du Knedl",
-   "views": 289310,
+   "views": 289313,
    "datum": "2021-07-29",
    "bild": "bilder/videos/c4FYOdgd_ww.jpg"
   },
@@ -440,7 +440,7 @@ window.MI_DATEN = {
    "id": "jW4PN9RFJ1o",
    "band": "ZaitLos",
    "titel": "Hand in Hand",
-   "views": 151542,
+   "views": 151551,
    "datum": "2021-05-28",
    "bild": "bilder/videos/jW4PN9RFJ1o.jpg"
   },
