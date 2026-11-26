@@ -71,7 +71,7 @@ nav a:hover{color:var(--weiss)}
 .knopf.zweit:hover{background:rgba(255,255,255,.12)}
 
 /* Abschnitte */
-section{padding:96px 0}
+section{padding:120px 0}
 .titel{text-align:center;margin-bottom:56px}
 .titel h2{font-size:clamp(1.6rem,3.4vw,2.3rem);font-weight:700;color:var(--dunkel)}
 .titel h2::after{content:"";display:block;width:56px;height:3px;background:var(--rot);margin:16px auto 0}
@@ -273,7 +273,7 @@ footer img{height:30px;width:auto;margin:0 auto 14px}
   nav.offen{display:block}
   nav a{display:block;margin:0;padding:12px 24px;font-size:1rem}
   .fuss{grid-template-columns:1fr}
-  section{padding:72px 0}
+  section{padding:84px 0}
   .hero{min-height:88vh}
   .galerie{grid-template-columns:1fr}
   .alben-raster{grid-template-columns:repeat(2,1fr)}
@@ -342,6 +342,36 @@ body{font-family:"Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
 .grossbild img{display:block;max-width:min(94vw,1600px);max-height:88vh;border-radius:10px}
 .grossbild button{position:fixed;top:14px;right:18px;width:46px;height:46px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#fff;font-size:28px;line-height:1;cursor:pointer}
 @media (max-width:720px){.studio-galerie{grid-template-columns:repeat(2,1fr);gap:10px;margin-top:36px}.studio-galerie button{border-radius:10px}}
+
+/* Live-Zahlen: NEU-Zeile im Startbild */
+.neu-zeile{display:inline-flex;align-items:center;gap:12px;margin-top:26px;padding:8px 18px 8px 8px;border-radius:40px;
+  background:rgba(20,20,20,.55);border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+  color:#fff;font:inherit;font-size:.95rem;cursor:pointer;text-align:left;transition:background .2s,border-color .2s}
+.neu-zeile:hover,.neu-zeile:focus-visible{background:rgba(150,0,0,.55);border-color:rgba(255,255,255,.4)}
+.neu-zeile[hidden]{display:none}
+.neu-zeile .marke{background:var(--rot-hell);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.14em;padding:6px 11px;border-radius:20px;position:relative}
+.neu-zeile .marke::after{content:"";position:absolute;inset:-4px;border-radius:24px;border:2px solid var(--rot-hell);opacity:0;animation:puls 2.4s ease-out infinite}
+@keyframes puls{0%{opacity:.7;transform:scale(.9)}100%{opacity:0;transform:scale(1.25)}}
+.neu-zeile b{font-weight:650}
+.neu-zeile .los{opacity:.75;white-space:nowrap}
+@media (max-width:720px){.neu-zeile{display:flex;width:100%;font-size:.88rem}.neu-zeile .los{display:none}}
+@media (prefers-reduced-motion:reduce){.neu-zeile .marke::after{animation:none}}
+/* Live-Zahlen: breite Erfolgskarte */
+.preis.breit{grid-column:1/-1;display:grid;grid-template-columns:auto 1fr;align-items:center;gap:34px;text-align:left;padding:38px 44px}
+.preis.breit .bild{height:150px;margin:0}
+.preis.breit .bild svg{height:100%;width:auto;filter:drop-shadow(0 18px 26px rgba(0,0,0,.65))}
+.preis.breit b small{font-size:.42em;letter-spacing:0;margin-left:.15em}
+@media (max-width:900px){.preis.breit{grid-template-columns:1fr;text-align:center;justify-items:center;gap:10px;padding:40px 24px 34px}.preis.breit .bild{height:120px;margin-bottom:12px}}
+
+/* Feinschliff: Video in der Kachel */
+.clip.spielt{cursor:default;box-shadow:0 0 0 2px var(--rot-hell),0 18px 40px rgba(0,0,0,.5)}
+.clip.spielt .bildrahmen iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+/* Feinschliff: aktueller Abschnitt in der Navigation */
+nav a{position:relative}
+nav a.aktiv{color:var(--weiss)}
+nav a::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:2px;border-radius:2px;background:var(--rot-hell);transform:scaleX(0);transition:transform .3s ease}
+nav a.aktiv::after{transform:scaleX(1)}
+@media (max-width:720px){nav a::after{display:none}nav a.aktiv{color:#ff6b6b}}
 </style>
 <link rel="preload" href="schriften/OpenSans-latin.woff2" as="font" type="font/woff2" crossorigin>
 </head>
@@ -379,6 +409,7 @@ body{font-family:"Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
       <a class="knopf zweit" href="#alben">Produktionen anhören</a>
       <a class="knopf zweit" href="#musikvideos">Musikvideos ansehen</a>
     </div>
+    <button type="button" class="neu-zeile" id="neu-zeile" hidden><span class="marke">NEU</span><span id="neu-text"></span><span class="los">▶ ansehen</span></button>
   </div>
 </section>
 
@@ -480,6 +511,16 @@ body{font-family:"Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
         <b data-ziel="1650" data-nach="+">1.650+</b>
         <h3>Produzierte Titel</h3>
         <p>Alben und Singles seit 1997</p>
+      </div>
+      <div class="preis breit einblenden">
+        <div class="bild"><svg viewBox="0 0 120 120" aria-hidden="true"><defs><linearGradient id="gold-play" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#fff6cf"/><stop offset=".45" stop-color="#f0cf73"/><stop offset="1" stop-color="#b8862b"/></linearGradient></defs>
+          <circle cx="60" cy="60" r="56" fill="none" stroke="url(#gold-play)" stroke-width="5"/><path d="M48 36v48l38-24z" fill="url(#gold-play)"/></svg></div>
+        <div>
+          <b id="e-aufrufe" data-ziel="66" data-teiler="10" data-nach=" Mio.">6,6<small>Mio.</small></b>
+          <h3>Aufrufe unserer Musikvideos</h3>
+          <p>auf YouTube · gedreht und geschnitten von Melody Intersound · Stand <span id="e-stand"></span></p>
+        </div>
       </div>
     </div>
   </div>
@@ -598,16 +639,26 @@ document.write('<script src="daten/alben.js?v=' + Math.floor(Date.now() / 60000)
   gesamtEl.dataset.ziel = D.gesamt; gesamtEl.textContent = fmt(D.gesamt);
   document.getElementById('v-schnitt').textContent = fmt(Math.round(D.gesamt / D.anzahl));
   document.getElementById('v-stand').textContent = D.stand;
+  // Live-Zahlen: Erfolgskarte (Mio. mit 1 Kommastelle, abgerundet)
+  const eA = document.getElementById('e-aufrufe');
+  if (eA) { const z = Math.floor(D.gesamt / 100000); eA.dataset.ziel = z;
+    eA.innerHTML = (z / 10).toLocaleString('de-DE', {minimumFractionDigits: 1}) + '<small>Mio.</small>';
+    document.getElementById('e-stand').textContent = D.stand; }
 
   const galerie = document.getElementById('galerie'), mehr = document.getElementById('mehr');
   const neuestes = [...D.videos].sort((a,b) => b.datum.localeCompare(a.datum))[0].id;
-  const SCHRITT = 9; let sicht = SCHRITT, sort = 'neu';
+  const SCHRITT = 9; let sicht = SCHRITT, sort = 'neu', spielt = null;
   const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   const zeichnen = () => {
     const liste = [...D.videos].sort(sort === 'neu'
       ? (a,b) => b.datum.localeCompare(a.datum) : (a,b) => b.views - a.views);
     galerie.classList.toggle('gross', sort === 'neu');
-    galerie.innerHTML = liste.slice(0, sicht).map(v => `
+    galerie.innerHTML = liste.slice(0, sicht).map(v => v.id === spielt ? `
+      <div class="clip spielt" data-id="${v.id}">
+        <div class="bildrahmen"><iframe src="https://www.youtube-nocookie.com/embed/${v.id}?autoplay=1&rel=0" title="${esc(v.band)} – ${esc(v.titel)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+        <div class="info"><div class="band">${esc(v.band)}</div><div class="name">${esc(v.titel)}</div>
+          <div class="meta">${fmt(v.views)} Aufrufe · ${v.datum.slice(0,4)}</div></div>
+      </div>` : `
       <button type="button" class="clip" data-id="${v.id}" aria-label="${esc(v.band)} – ${esc(v.titel)} abspielen">
         <div class="bildrahmen"><img src="${v.bild}" alt="" loading="lazy">${v.id === neuestes ? '<span class="neu">NEU</span>' : ''}
           <div class="play"><i><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></i></div></div>
@@ -618,7 +669,7 @@ document.write('<script src="daten/alben.js?v=' + Math.floor(Date.now() / 60000)
   };
   document.querySelectorAll('.sortierung button').forEach(b => b.addEventListener('click', () => {
     document.querySelectorAll('.sortierung button').forEach(x => x.classList.toggle('aktiv', x === b));
-    sort = b.dataset.sort; sicht = SCHRITT; zeichnen();
+    sort = b.dataset.sort; sicht = SCHRITT; spielt = null; zeichnen();
   }));
   mehr.addEventListener('click', () => { sicht += SCHRITT; zeichnen(); });
   zeichnen();
@@ -626,10 +677,21 @@ document.write('<script src="daten/alben.js?v=' + Math.floor(Date.now() / 60000)
   // Player: YouTube erst nach Klick laden (youtube-nocookie)
   const player = document.getElementById('player'), rahmen = document.getElementById('rahmen');
   const zu = () => { player.classList.remove('offen'); rahmen.innerHTML = ''; };
+  // Live-Zahlen: NEU-Zeile im Startbild (neuestes Video, höchstens 60 Tage alt)
+  const nz = document.getElementById('neu-zeile');
+  const nv = [...D.videos].sort((a,b) => b.datum.localeCompare(a.datum))[0];
+  if (nz && nv && (Date.now() - new Date(nv.datum)) / 864e5 <= 60) {
+    document.getElementById('neu-text').innerHTML = `<b>${esc(nv.band)}</b> – ${esc(nv.titel)}`;
+    nz.setAttribute('aria-label', `Neues Musikvideo: ${nv.band} – ${nv.titel} abspielen`);
+    nz.hidden = false;
+    nz.addEventListener('click', () => {
+      rahmen.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${nv.id}?autoplay=1&rel=0" title="Musikvideo" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
+      player.classList.add('offen');
+    });
+  }
   galerie.addEventListener('click', e => {
-    const k = e.target.closest('.clip'); if (!k) return;
-    rahmen.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${k.dataset.id}?autoplay=1&rel=0" title="Musikvideo" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
-    player.classList.add('offen');
+    const k = e.target.closest('button.clip'); if (!k) return;
+    spielt = k.dataset.id; zeichnen();   // Video startet direkt in der Kachel, ein anderes laufendes stoppt
   });
   player.addEventListener('click', e => { if (e.target === player || e.target.classList.contains('zu')) zu(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') zu(); });
@@ -676,7 +738,9 @@ document.getElementById('jahr').textContent = new Date().getFullYear();
 const zaehlen = el => {
   const ziel = +el.dataset.ziel, dauer = 1400, start = performance.now();
   const schritt = t => { const p = Math.min((t - start) / dauer, 1);
-    el.textContent = Math.round(ziel * (1 - Math.pow(1 - p, 3))).toLocaleString('de-DE') + (el.dataset.nach || '');
+    const teiler = +el.dataset.teiler || 1, wert = Math.round(ziel * (1 - Math.pow(1 - p, 3))) / teiler;
+    const zahl = wert.toLocaleString('de-DE', {minimumFractionDigits: teiler > 1 ? 1 : 0, maximumFractionDigits: teiler > 1 ? 1 : 0});
+    if (el.dataset.nach === ' Mio.') el.innerHTML = zahl + '<small>Mio.</small>'; else el.textContent = zahl + (el.dataset.nach || '');
     if (p < 1) requestAnimationFrame(schritt); };
   requestAnimationFrame(schritt);
 };
@@ -692,6 +756,20 @@ if ('IntersectionObserver' in window && !ruhig) {
 } else {
   document.querySelectorAll('.einblenden').forEach(el => el.classList.add('sichtbar'));
 }
+
+// Navigation: aktuellen Abschnitt markieren
+(() => {
+  const links = [...document.querySelectorAll('nav a[href^="#"]')];
+  const ziele = links.map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+  if (!('IntersectionObserver' in window) || !ziele.length) return;
+  const sichtbar = new Map();
+  const io = new IntersectionObserver(es => {
+    es.forEach(e => sichtbar.set(e.target.id, e.isIntersecting));
+    const aktiv = ziele.find(z => sichtbar.get(z.id));
+    links.forEach(a => a.classList.toggle('aktiv', !!aktiv && a.getAttribute('href') === '#' + aktiv.id));
+  }, {rootMargin: '-45% 0px -50% 0px'});
+  ziele.forEach(z => io.observe(z));
+})();
 
 // Studio-Galerie: Großansicht
 (() => {
