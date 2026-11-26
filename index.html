@@ -330,6 +330,18 @@ footer img{height:30px;width:auto;margin:0 auto 14px}
 body{font-family:"Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
 .hero .seit,.referenzen h2,.clip .band,.album .band,.person-zitat .klein,.kontakt-raster small,.verlag-zeichen span{font-family:"JetBrains Mono",ui-monospace,Menlo,monospace}
 .person-zitat q{font-weight:800}
+
+/* Studio-Galerie */
+.studio-galerie{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:56px}
+.studio-galerie button{padding:0;border:0;background:none;cursor:zoom-in;border-radius:14px;overflow:hidden;box-shadow:0 12px 30px rgba(0,0,0,.14);aspect-ratio:3/2;display:block}
+.studio-galerie img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
+.studio-galerie button:hover img,.studio-galerie button:focus-visible img{transform:scale(1.04)}
+.studio-galerie button:focus-visible{outline:3px solid var(--rot-hell);outline-offset:3px}
+.grossbild{margin:auto;inset:0;border:0;padding:0;background:transparent;overflow:visible;max-width:min(94vw,1600px);max-height:92vh}
+.grossbild::backdrop{background:rgba(8,8,8,.9)}
+.grossbild img{display:block;max-width:min(94vw,1600px);max-height:88vh;border-radius:10px}
+.grossbild button{position:fixed;top:14px;right:18px;width:46px;height:46px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#fff;font-size:28px;line-height:1;cursor:pointer}
+@media (max-width:720px){.studio-galerie{grid-template-columns:repeat(2,1fr);gap:10px;margin-top:36px}.studio-galerie button{border-radius:10px}}
 </style>
 <link rel="preload" href="schriften/OpenSans-latin.woff2" as="font" type="font/woff2" crossorigin>
 </head>
@@ -518,7 +530,18 @@ body{font-family:"Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
       <a class="knopf" href="https://maps.apple.com/?address=Leimbach%205,%206133%20Weerberg,%20%C3%96sterreich" target="_blank" rel="noopener">Route planen</a>
     </div>
   </div>
+  <div class="wrap">
+    <div class="studio-galerie">
+      <button type="button" class="einblenden" data-gross="bilder/studio/studio-regie.webp" aria-label="Regie des Tonstudios Melody Intersound mit Mischpult und Abhörmonitoren – groß anzeigen"><img src="bilder/studio/studio-regie.webp" alt="Regie des Tonstudios Melody Intersound mit Mischpult und Abhörmonitoren" width="1600" height="1067" loading="lazy" decoding="async"></button>
+      <button type="button" class="einblenden" data-gross="bilder/studio/studio-fader.webp" aria-label="Fader am Mischpult – groß anzeigen"><img src="bilder/studio/studio-fader.webp" alt="Fader am Mischpult" width="1600" height="1067" loading="lazy" decoding="async"></button>
+      <button type="button" class="einblenden" data-gross="bilder/studio/studio-gitarre-mikro.webp" aria-label="Akustikgitarre vor dem Studiomikrofon – groß anzeigen"><img src="bilder/studio/studio-gitarre-mikro.webp" alt="Akustikgitarre vor dem Studiomikrofon" width="1600" height="1067" loading="lazy" decoding="async"></button>
+      <button type="button" class="einblenden" data-gross="bilder/studio/studio-outboard.webp" aria-label="Outboard-Geräte im Studio-Rack – groß anzeigen"><img src="bilder/studio/studio-outboard.webp" alt="Outboard-Geräte im Studio-Rack" width="1600" height="1067" loading="lazy" decoding="async"></button>
+      <button type="button" class="einblenden" data-gross="bilder/studio/studio-keyboard.webp" aria-label="Aufnahme am Keyboard – groß anzeigen"><img src="bilder/studio/studio-keyboard.webp" alt="Aufnahme am Keyboard" width="1600" height="1067" loading="lazy" decoding="async"></button>
+      <button type="button" class="einblenden" data-gross="bilder/studio/studio-lexicon.webp" aria-label="Lexicon-Effektgerät im Rack – groß anzeigen"><img src="bilder/studio/studio-lexicon.webp" alt="Lexicon-Effektgerät im Rack" width="1600" height="1067" loading="lazy" decoding="async"></button>
+    </div>
+  </div>
 </section>
+<dialog class="grossbild" id="grossbild" aria-label="Studiofoto"><button type="button" aria-label="Schließen">×</button><img alt=""></dialog>
 
 <div class="social">
   <div class="wrap">
@@ -669,6 +692,17 @@ if ('IntersectionObserver' in window && !ruhig) {
 } else {
   document.querySelectorAll('.einblenden').forEach(el => el.classList.add('sichtbar'));
 }
+
+// Studio-Galerie: Großansicht
+(() => {
+  const d = document.getElementById('grossbild');
+  if (!d || !d.showModal) return;
+  const img = d.querySelector('img');
+  document.querySelectorAll('.studio-galerie button').forEach(b => b.addEventListener('click', () => {
+    img.src = b.dataset.gross; img.alt = b.querySelector('img').alt; d.showModal();
+  }));
+  d.addEventListener('click', e => { if (e.target !== img) d.close(); });
+})();
 </script>
 </body>
 </html>
