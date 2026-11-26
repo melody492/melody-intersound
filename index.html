@@ -666,8 +666,8 @@ document.write('<script src="daten/alben.js?v=' + Math.floor(Date.now() / 60000)
       </button>`).join('');
     mehr.style.display = sicht >= liste.length ? 'none' : '';
   };
-  document.querySelectorAll('.sortierung button').forEach(b => b.addEventListener('click', () => {
-    document.querySelectorAll('.sortierung button').forEach(x => x.classList.toggle('aktiv', x === b));
+  document.querySelectorAll('.sortierung:not(.reiter) button').forEach(b => b.addEventListener('click', () => {
+    document.querySelectorAll('.sortierung:not(.reiter) button').forEach(x => x.classList.toggle('aktiv', x === b));
     sort = b.dataset.sort; sicht = SCHRITT; spielt = null; zeichnen();
   }));
   mehr.addEventListener('click', () => { sicht += SCHRITT; zeichnen(); });
