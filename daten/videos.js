@@ -1,7 +1,7 @@
 // automatisch erzeugt von galerie_aktualisieren.py – nicht von Hand bearbeiten
 window.MI_DATEN = {
  "stand": "27.11.2026",
- "gesamt": 6662211,
+ "gesamt": 6662223,
  "anzahl": 57,
  "videos": [
   {
@@ -48,7 +48,7 @@ window.MI_DATEN = {
    "id": "QoCQdyzNlg0",
    "band": "Zellberg Duo mit Doris",
    "titel": "Das Brautlied",
-   "views": 61954,
+   "views": 61964,
    "datum": "2026-08-11",
    "bild": "bilder/videos/QoCQdyzNlg0.jpg"
   },
@@ -64,7 +64,7 @@ window.MI_DATEN = {
    "id": "oaEEh_7du0w",
    "band": "JuHe",
    "titel": "Boarisch g’spielt und boarisch tanzt",
-   "views": 19956,
+   "views": 19957,
    "datum": "2026-06-26",
    "bild": "bilder/videos/oaEEh_7du0w.jpg"
   },
@@ -80,7 +80,7 @@ window.MI_DATEN = {
    "id": "PV-I0jY-7E8",
    "band": "ZaitLos",
    "titel": "Heit dauerts mehr",
-   "views": 30405,
+   "views": 30402,
    "datum": "2026-06-09",
    "bild": "bilder/videos/PV-I0jY-7E8.jpg"
   },
@@ -160,7 +160,7 @@ window.MI_DATEN = {
    "id": "IKNhytG-1ko",
    "band": "Halodris",
    "titel": "Des Liad vom Wolf",
-   "views": 128905,
+   "views": 128907,
    "datum": "2025-09-21",
    "bild": "bilder/videos/IKNhytG-1ko.jpg"
   },
@@ -192,7 +192,7 @@ window.MI_DATEN = {
    "id": "9uf-YwebcN4",
    "band": "JuHe",
    "titel": "Die schlechte Laune isch passé",
-   "views": 34772,
+   "views": 34770,
    "datum": "2025-03-30",
    "bild": "bilder/videos/9uf-YwebcN4.jpg"
   },
@@ -216,7 +216,7 @@ window.MI_DATEN = {
    "id": "Wfv76wIsk6c",
    "band": "JuHe",
    "titel": "Almleben",
-   "views": 239222,
+   "views": 239233,
    "datum": "2024-09-20",
    "bild": "bilder/videos/Wfv76wIsk6c.jpg"
   },
@@ -224,7 +224,7 @@ window.MI_DATEN = {
    "id": "Qwc6GepS9HI",
    "band": "Zillertal Power",
    "titel": "Wenn die Berge nicht mehr schweigen",
-   "views": 106926,
+   "views": 106922,
    "datum": "2024-08-31",
    "bild": "bilder/videos/Qwc6GepS9HI.jpg"
   },
@@ -240,7 +240,7 @@ window.MI_DATEN = {
    "id": "CeQypvNVuN0",
    "band": "Halodris",
    "titel": "Wenn’s Arschal brummt",
-   "views": 93590,
+   "views": 93591,
    "datum": "2024-02-23",
    "bild": "bilder/videos/CeQypvNVuN0.jpg"
   },
@@ -256,7 +256,7 @@ window.MI_DATEN = {
    "id": "3ihiiIgeaqU",
    "band": "Läts Fetz",
    "titel": "Drei Gasthausbriader",
-   "views": 516792,
+   "views": 516777,
    "datum": "2024-01-20",
    "bild": "bilder/videos/3ihiiIgeaqU.jpg"
   },
@@ -280,7 +280,7 @@ window.MI_DATEN = {
    "id": "2tiMBdBJgVY",
    "band": "Sonnwend",
    "titel": "Tonz’n Tonz’n Tonz’n",
-   "views": 146959,
+   "views": 146961,
    "datum": "2023-10-11",
    "bild": "bilder/videos/2tiMBdBJgVY.jpg"
   },
@@ -296,7 +296,7 @@ window.MI_DATEN = {
    "id": "_5BRBi8ouOg",
    "band": "JuHe",
    "titel": "Auf der Jodleralm",
-   "views": 191077,
+   "views": 191079,
    "datum": "2023-08-03",
    "bild": "bilder/videos/_5BRBi8ouOg.jpg"
   },
@@ -360,7 +360,7 @@ window.MI_DATEN = {
    "id": "eFhNTa8-PSI",
    "band": "JuHe",
    "titel": "Sei guat drauf",
-   "views": 203947,
+   "views": 203944,
    "datum": "2022-08-19",
    "bild": "bilder/videos/eFhNTa8-PSI.jpg"
   },
@@ -384,7 +384,7 @@ window.MI_DATEN = {
    "id": "ekS_cw4Ubgg",
    "band": "Halodris",
    "titel": "Die alten Zeiten",
-   "views": 625411,
+   "views": 625417,
    "datum": "2022-07-19",
    "bild": "bilder/videos/ekS_cw4Ubgg.jpg"
   },
@@ -416,7 +416,7 @@ window.MI_DATEN = {
    "id": "rztOTXPjtOY",
    "band": "Tiroler Partymander",
    "titel": "Du bist die Nummer eins",
-   "views": 44838,
+   "views": 44839,
    "datum": "2021-09-27",
    "bild": "bilder/videos/rztOTXPjtOY.jpg"
   },
@@ -448,7 +448,7 @@ window.MI_DATEN = {
    "id": "RZVbIXJ4xOY",
    "band": "ZaitLos",
    "titel": "A Fels in der Brandung",
-   "views": 234781,
+   "views": 234784,
    "datum": "2020-10-31",
    "bild": "bilder/videos/RZVbIXJ4xOY.jpg"
   },
