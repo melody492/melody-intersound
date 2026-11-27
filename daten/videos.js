@@ -461,6 +461,15 @@ window.MI_DATEN = {
    "bild": "bilder/videos/snrsPukZxQc.jpg"
   }
  ],
+ "demnaechst": [
+  {
+   "id": "EUQQw5IKbGM",
+   "band": "Volksbeat",
+   "titel": "I spür unterm Weihnachtsbaum",
+   "start": "2026-11-29T19:00",
+   "bild": "bilder/videos/EUQQw5IKbGM.jpg"
+  }
+ ],
  "referenzen": [
   {
    "name": "Adrenalin"

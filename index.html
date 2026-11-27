@@ -130,6 +130,24 @@ section{padding:120px 0}
 .sortierung{display:flex;justify-content:center;gap:10px;margin-bottom:30px}
 .sortierung button{background:none;border:1.5px solid #444;color:#ddd;padding:9px 20px;border-radius:30px;cursor:pointer;font:inherit;font-size:.9rem}
 .sortierung button.aktiv{background:var(--rot);border-color:var(--rot);color:#fff}
+/* Demnächst (angesetzte YouTube-Premiere) */
+.demnaechst{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);align-items:center;max-width:980px;margin:0 auto 44px;
+  background:linear-gradient(135deg,#231010 0%,#1b1b1b 60%);border:1px solid #3a1d1d;border-radius:16px;overflow:hidden;
+  box-shadow:0 18px 44px rgba(0,0,0,.45)}
+.demnaechst[hidden]{display:none}
+.demnaechst .bild{position:relative;min-width:0;aspect-ratio:16/9;background:#000;overflow:hidden}
+.demnaechst .bild img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.demnaechst .bild .marke{position:absolute;top:14px;left:14px;background:var(--rot);color:#fff;font-size:.72rem;font-weight:700;
+  letter-spacing:.16em;padding:6px 11px;border-radius:5px;text-transform:uppercase}
+.demnaechst .text{padding:28px 32px;display:flex;flex-direction:column;justify-content:center;gap:6px}
+.demnaechst .zeile{font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;color:#ff6b6b;font-weight:700}
+.demnaechst .band{color:#bbb;font-size:.95rem;margin-top:6px}
+.demnaechst .name{font-size:clamp(1.35rem,2.6vw,1.8rem);font-weight:750;line-height:1.2;color:#fff}
+.demnaechst .wann{margin-top:10px;color:#e8e8e8;font-size:1rem}
+.demnaechst .wann b{color:#fff}
+.demnaechst .noch{color:#999;font-size:.88rem}
+.demnaechst .knopf{align-self:flex-start;margin-top:18px;padding:11px 22px;font-size:.92rem}
+@media (max-width:760px){.demnaechst{grid-template-columns:1fr}.demnaechst .text{padding:22px 20px 26px}}
 .galerie{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .clip{background:#1f1f1f;border-radius:12px;overflow:hidden;cursor:pointer;border:0;color:inherit;text-align:left;font:inherit;padding:0;transition:transform .25s,box-shadow .25s}
 .clip:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.5)}
@@ -452,6 +470,7 @@ nav a.aktiv::after{transform:scaleX(1)}
       <div><b id="v-gesamt">–</b><span>Aufrufe auf YouTube</span></div>
       <div><b id="v-schnitt">–</b><span>Aufrufe pro Video im Schnitt</span></div>
     </div>
+    <div class="demnaechst" id="demnaechst" hidden></div>
     <div class="sortierung">
       <button type="button" class="aktiv" data-sort="neu">Neueste</button>
       <button type="button" data-sort="beliebt">Meistgesehen</button>
@@ -643,6 +662,30 @@ document.write('<script src="daten/alben.js?v=' + Math.floor(Date.now() / 60000)
   if (eA) { const z = Math.floor(D.gesamt / 100000); eA.dataset.ziel = z;
     eA.innerHTML = (z / 10).toLocaleString('de-DE', {minimumFractionDigits: 1}) + '<small>Mio.</small>';
     document.getElementById('e-stand').textContent = D.stand; }
+
+  // Demnächst: angesetzte YouTube-Premiere (Daten aus galerie_aktualisieren.py), nur ein Link, nichts eingebettet
+  const dm = document.getElementById('demnaechst');
+  const kommend = (D.demnaechst || []).filter(v => new Date(v.start) > Date.now() - 6*3600e3);
+  if (dm && kommend.length) {
+    const v = kommend[0], t = new Date(v.start), jetzt = new Date();
+    const tag = d => new Date(d.getFullYear(), d.getMonth(), d.getDate());
+    const diff = Math.round((tag(t) - tag(jetzt)) / 864e5);
+    const uhr = t.toLocaleTimeString('de-AT', {hour:'2-digit', minute:'2-digit'}) + ' Uhr';
+    const datum = t.toLocaleDateString('de-AT', {weekday:'long', day:'numeric', month:'long'});
+    const laeuft = t <= jetzt;
+    const noch = laeuft ? '' : diff === 0 ? 'heute' : diff === 1 ? 'morgen' : 'in ' + diff + ' Tagen';
+    const escD = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    dm.innerHTML = `
+      <div class="bild"><img src="${v.bild}" alt="${escD(v.band)} – ${escD(v.titel)}" loading="lazy"><span class="marke">${laeuft ? 'Jetzt neu' : 'Demnächst'}</span></div>
+      <div class="text">
+        <div class="zeile">${laeuft ? 'Premiere läuft' : 'Videopremiere auf YouTube'}</div>
+        <div class="band">${escD(v.band)}</div>
+        <div class="name">${escD(v.titel)}</div>
+        ${laeuft ? '' : `<div class="wann"><b>${datum}</b> · ${uhr}</div><div class="noch">${noch}</div>`}
+        <a class="knopf" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener">${laeuft ? 'Jetzt ansehen' : 'Auf YouTube erinnern lassen'}</a>
+      </div>`;
+    dm.hidden = false;
+  }
 
   const galerie = document.getElementById('galerie'), mehr = document.getElementById('mehr');
   const neuestes = [...D.videos].sort((a,b) => b.datum.localeCompare(a.datum))[0].id;
