@@ -1,14 +1,14 @@
 // automatisch erzeugt von galerie_aktualisieren.py – nicht von Hand bearbeiten
 window.MI_DATEN = {
  "stand": "28.11.2026",
- "gesamt": 6666145,
+ "gesamt": 6666140,
  "anzahl": 57,
  "videos": [
   {
    "id": "LblGpGo5hYs",
    "band": "Läts Fetz",
    "titel": "Scho wieder Höllawind",
-   "views": 9001,
+   "views": 9005,
    "datum": "2026-11-13",
    "bild": "bilder/videos/LblGpGo5hYs.jpg"
   },
@@ -165,6 +165,14 @@ window.MI_DATEN = {
    "bild": "bilder/videos/IKNhytG-1ko.jpg"
   },
   {
+   "id": "sj4GYxqaWJg",
+   "band": "Volksbeat",
+   "titel": "Wenn du meinst",
+   "views": 91019,
+   "datum": "2025-07-18",
+   "bild": "bilder/videos/sj4GYxqaWJg.jpg"
+  },
+  {
    "id": "rxTrB3ZWJqA",
    "band": "ZaitLos",
    "titel": "Biker Blues",
@@ -248,7 +256,7 @@ window.MI_DATEN = {
    "id": "3ihiiIgeaqU",
    "band": "Läts Fetz",
    "titel": "Drei Gasthausbriader",
-   "views": 516944,
+   "views": 516935,
    "datum": "2024-01-20",
    "bild": "bilder/videos/3ihiiIgeaqU.jpg"
   },
@@ -451,14 +459,6 @@ window.MI_DATEN = {
    "views": 23242,
    "datum": "2020-08-09",
    "bild": "bilder/videos/snrsPukZxQc.jpg"
-  },
-  {
-   "id": "sj4GYxqaWJg",
-   "band": "Volksbeat",
-   "titel": "Wenn du meinst",
-   "views": 91019,
-   "datum": "",
-   "bild": "bilder/videos/sj4GYxqaWJg.jpg"
   }
  ],
  "demnaechst": [
